@@ -1,0 +1,1683 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Docks",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cartel Influence - Docks cartel influence 1",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 1"
+                    },
+                    {
+                        "name": "Cartel Influence - Docks cartel influence 2",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 2"
+                    },
+                    {
+                        "name": "Cartel Influence - Docks cartel influence 3",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 3"
+                    },
+                    {
+                        "name": "Cartel Influence - Docks cartel influence 4",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 4"
+                    },
+                    {
+                        "name": "Cartel Influence - Docks cartel influence 5",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 5"
+                    },
+                    {
+                        "name": "Cartel Influence - Docks cartel influence 6",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 6"
+                    },
+                    {
+                        "name": "Cartel Influence - Docks cartel influence 7",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 7"
+                    },
+                    {
+                        "name": "Anna Chesterfield - Successful Sample Anna Chesterfield",
+                        "ref": "Docks/Anna Chesterfield/Successful Sample Anna Chesterfield"
+                    },
+                    {
+                        "name": "Billy Kramer - Successful Sample Billy Kramer",
+                        "ref": "Docks/Billy Kramer/Successful Sample Billy Kramer"
+                    },
+                    {
+                        "name": "Cranky Frank - Successful Sample Cranky Frank",
+                        "ref": "Docks/Cranky Frank/Successful Sample Cranky Frank"
+                    },
+                    {
+                        "name": "Genghis Barn - Successful Sample Genghis Barn",
+                        "ref": "Docks/Genghis Barn/Successful Sample Genghis Barn"
+                    },
+                    {
+                        "name": "Javier Perez - Successful Sample Javier Perez",
+                        "ref": "Docks/Javier Perez/Successful Sample Javier Perez"
+                    },
+                    {
+                        "name": "Salvador Moreno - Befriend Supplier Salvador Moreno",
+                        "ref": "Docks/Salvador Moreno/Befriend Supplier Salvador Moreno"
+                    },
+                    {
+                        "name": "Kelly Reynolds - Successful Sample Kelly Reynolds",
+                        "ref": "Docks/Kelly Reynolds/Successful Sample Kelly Reynolds"
+                    },
+                    {
+                        "name": "Lisa Gardener - Successful Sample Lisa Gardener",
+                        "ref": "Docks/Lisa Gardener/Successful Sample Lisa Gardener"
+                    },
+                    {
+                        "name": "Mac Cooper - Successful Sample Mac Cooper",
+                        "ref": "Docks/Mac Cooper/Successful Sample Mac Cooper"
+                    },
+                    {
+                        "name": "Marco Barone - Successful Sample Marco Barone",
+                        "ref": "Docks/Marco Barone/Successful Sample Marco Barone"
+                    },
+                    {
+                        "name": "Melissa Wood - Successful Sample Melissa Wood",
+                        "ref": "Docks/Melissa Wood/Successful Sample Melissa Wood"
+                    },
+                    {
+                        "name": "Sherman Giles - Successful Sample Sherman Giles",
+                        "ref": "Docks/Sherman Giles/Successful Sample Sherman Giles"
+                    },
+                    {
+                        "name": "Jane Lucero - Recruit Docks Dealer Jane Lucero",
+                        "ref": "Docks/Jane Lucero/Recruit Docks Dealer Jane Lucero"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 438,
+                        "y": 665,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Downtown",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 1",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 1"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 2",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 2"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 3",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 3"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 4",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 4"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 5",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 5"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 6",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 6"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 7",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 7"
+                    },
+                    {
+                        "name": "Fungal Phil - Befriend Supplier Fungal Phil",
+                        "ref": "Downtown/Fungal Phil/Befriend Supplier Fungal Phil"
+                    },
+                    {
+                        "name": "Bruce Norton - Successful Sample Bruce Norton",
+                        "ref": "Downtown/Bruce Norton/Successful Sample Bruce Norton"
+                    },
+                    {
+                        "name": "Elizabeth Homley - Successful Sample Elizabeth Homley",
+                        "ref": "Downtown/Elizabeth Homley/Successful Sample Elizabeth Homley"
+                    },
+                    {
+                        "name": "Eugene Buckley - Successful Sample Eugene Buckley",
+                        "ref": "Downtown/Eugene Buckley/Successful Sample Eugene Buckley"
+                    },
+                    {
+                        "name": "Greg Figgle - Successful Sample Greg Figgle",
+                        "ref": "Downtown/Greg Figgle/Successful Sample Greg Figgle"
+                    },
+                    {
+                        "name": "Jeff Gilmore - Successful Sample Jeff Gilmore",
+                        "ref": "Downtown/Jeff Gilmore/Successful Sample Jeff Gilmore"
+                    },
+                    {
+                        "name": "Jenniver Rivera - Successful Sample Jennifer Rivera",
+                        "ref": "Downtown/Jenniver Rivera/Successful Sample Jennifer Rivera"
+                    },
+                    {
+                        "name": "Kevin Oakley - Successful Sample Kevin Oakley",
+                        "ref": "Downtown/Kevin Oakley/Successful Sample Kevin Oakley"
+                    },
+                    {
+                        "name": "Louis Fourier - Successful Sample Louis Fourier",
+                        "ref": "Downtown/Louis Fourier/Successful Sample Louis Fourier"
+                    },
+                    {
+                        "name": "Philip Wentworth - Successful Sample Philip Wentworth",
+                        "ref": "Downtown/Philip Wentworth/Successful Sample Philip Wentworth"
+                    },
+                    {
+                        "name": "Randy Caulfield - Successful Sample Randy Caulfield",
+                        "ref": "Downtown/Randy Caulfield/Successful Sample Randy Caulfield"
+                    },
+                    {
+                        "name": "Lucy Pennington - Successful Sample Lucy Pennington",
+                        "ref": "Downtown/Lucy Pennington/Successful Sample Lucy Pennington"
+                    },
+                    {
+                        "name": "Brad Crosby - Recruit Downtown Dealer Brad Crosby",
+                        "ref": "Downtown/Brad Crosby/Recruit Downtown Dealer Brad Crosby"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 651,
+                        "y": 478,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Mixes and Trash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Sewer - Jen Heard Sewer Key Purchase",
+                        "ref": "Mixes and Trash/Sewer/Jen Heard Sewer Key Purchase"
+                    },
+                    {
+                        "name": "Sewer - Sewer Office Key Pad",
+                        "ref": "Mixes and Trash/Sewer/Sewer Office Key Pad"
+                    },
+                    {
+                        "name": "Weed Mixing 1 - Weed Recipe Check, 1",
+                        "ref": "Mixes and Trash/Weed Mixing 1/Weed Recipe Check, 1"
+                    },
+                    {
+                        "name": "Weed Mixing 1 - Weed Recipe Check, 2",
+                        "ref": "Mixes and Trash/Weed Mixing 1/Weed Recipe Check, 2"
+                    },
+                    {
+                        "name": "Weed Mixing 1 - Weed Recipe Check, 3",
+                        "ref": "Mixes and Trash/Weed Mixing 1/Weed Recipe Check, 3"
+                    },
+                    {
+                        "name": "Weed Mixing 1 - Weed Recipe Check, 4",
+                        "ref": "Mixes and Trash/Weed Mixing 1/Weed Recipe Check, 4"
+                    },
+                    {
+                        "name": "Weed Mixing 1 - Weed Recipe Check, 5",
+                        "ref": "Mixes and Trash/Weed Mixing 1/Weed Recipe Check, 5"
+                    },
+                    {
+                        "name": "Weed Mixing 2 - Weed Recipe Check, 6",
+                        "ref": "Mixes and Trash/Weed Mixing 2/Weed Recipe Check, 6"
+                    },
+                    {
+                        "name": "Weed Mixing 2 - Weed Recipe Check, 7",
+                        "ref": "Mixes and Trash/Weed Mixing 2/Weed Recipe Check, 7"
+                    },
+                    {
+                        "name": "Weed Mixing 2 - Weed Recipe Check, 8",
+                        "ref": "Mixes and Trash/Weed Mixing 2/Weed Recipe Check, 8"
+                    },
+                    {
+                        "name": "Weed Mixing 2 - Weed Recipe Check, 9",
+                        "ref": "Mixes and Trash/Weed Mixing 2/Weed Recipe Check, 9"
+                    },
+                    {
+                        "name": "Weed Mixing 2 - Weed Recipe Check, 10",
+                        "ref": "Mixes and Trash/Weed Mixing 2/Weed Recipe Check, 10"
+                    },
+                    {
+                        "name": "Weed Mixing 3 - Weed Recipe Check, 11",
+                        "ref": "Mixes and Trash/Weed Mixing 3/Weed Recipe Check, 11"
+                    },
+                    {
+                        "name": "Weed Mixing 3 - Weed Recipe Check, 12",
+                        "ref": "Mixes and Trash/Weed Mixing 3/Weed Recipe Check, 12"
+                    },
+                    {
+                        "name": "Weed Mixing 3 - Weed Recipe Check, 13",
+                        "ref": "Mixes and Trash/Weed Mixing 3/Weed Recipe Check, 13"
+                    },
+                    {
+                        "name": "Weed Mixing 3 - Weed Recipe Check, 14",
+                        "ref": "Mixes and Trash/Weed Mixing 3/Weed Recipe Check, 14"
+                    },
+                    {
+                        "name": "Weed Mixing 3 - Weed Recipe Check, 15",
+                        "ref": "Mixes and Trash/Weed Mixing 3/Weed Recipe Check, 15"
+                    },
+                    {
+                        "name": "Meth Mixing 1 - Meth Recipe Check, 1",
+                        "ref": "Mixes and Trash/Meth Mixing 1/Meth Recipe Check, 1"
+                    },
+                    {
+                        "name": "Meth Mixing 1 - Meth Recipe Check, 2",
+                        "ref": "Mixes and Trash/Meth Mixing 1/Meth Recipe Check, 2"
+                    },
+                    {
+                        "name": "Meth Mixing 1 - Meth Recipe Check, 3",
+                        "ref": "Mixes and Trash/Meth Mixing 1/Meth Recipe Check, 3"
+                    },
+                    {
+                        "name": "Meth Mixing 1 - Meth Recipe Check, 4",
+                        "ref": "Mixes and Trash/Meth Mixing 1/Meth Recipe Check, 4"
+                    },
+                    {
+                        "name": "Meth Mixing 1 - Meth Recipe Check, 5",
+                        "ref": "Mixes and Trash/Meth Mixing 1/Meth Recipe Check, 5"
+                    },
+                    {
+                        "name": "Meth Mixing 2 - Meth Recipe Check, 6",
+                        "ref": "Mixes and Trash/Meth Mixing 2/Meth Recipe Check, 6"
+                    },
+                    {
+                        "name": "Meth Mixing 2 - Meth Recipe Check, 7",
+                        "ref": "Mixes and Trash/Meth Mixing 2/Meth Recipe Check, 7"
+                    },
+                    {
+                        "name": "Meth Mixing 2 - Meth Recipe Check, 8",
+                        "ref": "Mixes and Trash/Meth Mixing 2/Meth Recipe Check, 8"
+                    },
+                    {
+                        "name": "Meth Mixing 2 - Meth Recipe Check, 9",
+                        "ref": "Mixes and Trash/Meth Mixing 2/Meth Recipe Check, 9"
+                    },
+                    {
+                        "name": "Meth Mixing 2 - Meth Recipe Check, 10",
+                        "ref": "Mixes and Trash/Meth Mixing 2/Meth Recipe Check, 10"
+                    },
+                    {
+                        "name": "Meth Mixing 3 - Meth Recipe Check, 11",
+                        "ref": "Mixes and Trash/Meth Mixing 3/Meth Recipe Check, 11"
+                    },
+                    {
+                        "name": "Meth Mixing 3 - Meth Recipe Check, 12",
+                        "ref": "Mixes and Trash/Meth Mixing 3/Meth Recipe Check, 12"
+                    },
+                    {
+                        "name": "Meth Mixing 3 - Meth Recipe Check, 13",
+                        "ref": "Mixes and Trash/Meth Mixing 3/Meth Recipe Check, 13"
+                    },
+                    {
+                        "name": "Meth Mixing 3 - Meth Recipe Check, 14",
+                        "ref": "Mixes and Trash/Meth Mixing 3/Meth Recipe Check, 14"
+                    },
+                    {
+                        "name": "Meth Mixing 3 - Meth Recipe Check, 15",
+                        "ref": "Mixes and Trash/Meth Mixing 3/Meth Recipe Check, 15"
+                    },
+                    {
+                        "name": "Shroom Mixing 1 - Shrooms Recipe Check, 1",
+                        "ref": "Mixes and Trash/Shroom Mixing 1/Shrooms Recipe Check, 1"
+                    },
+                    {
+                        "name": "Shroom Mixing 1 - Shrooms Recipe Check, 2",
+                        "ref": "Mixes and Trash/Shroom Mixing 1/Shrooms Recipe Check, 2"
+                    },
+                    {
+                        "name": "Shroom Mixing 1 - Shrooms Recipe Check, 3",
+                        "ref": "Mixes and Trash/Shroom Mixing 1/Shrooms Recipe Check, 3"
+                    },
+                    {
+                        "name": "Shroom Mixing 1 - Shrooms Recipe Check, 4",
+                        "ref": "Mixes and Trash/Shroom Mixing 1/Shrooms Recipe Check, 4"
+                    },
+                    {
+                        "name": "Shroom Mixing 1 - Shrooms Recipe Check, 5",
+                        "ref": "Mixes and Trash/Shroom Mixing 1/Shrooms Recipe Check, 5"
+                    },
+                    {
+                        "name": "Shroom Mixing 2 - Shrooms Recipe Check, 6",
+                        "ref": "Mixes and Trash/Shroom Mixing 2/Shrooms Recipe Check, 6"
+                    },
+                    {
+                        "name": "Shroom Mixing 2 - Shrooms Recipe Check, 7",
+                        "ref": "Mixes and Trash/Shroom Mixing 2/Shrooms Recipe Check, 7"
+                    },
+                    {
+                        "name": "Shroom Mixing 2 - Shrooms Recipe Check, 8",
+                        "ref": "Mixes and Trash/Shroom Mixing 2/Shrooms Recipe Check, 8"
+                    },
+                    {
+                        "name": "Shroom Mixing 2 - Shrooms Recipe Check, 9",
+                        "ref": "Mixes and Trash/Shroom Mixing 2/Shrooms Recipe Check, 9"
+                    },
+                    {
+                        "name": "Shroom Mixing 2 - Shrooms Recipe Check, 10",
+                        "ref": "Mixes and Trash/Shroom Mixing 2/Shrooms Recipe Check, 10"
+                    },
+                    {
+                        "name": "Shroom Mixing 3 - Shrooms Recipe Check, 11",
+                        "ref": "Mixes and Trash/Shroom Mixing 3/Shrooms Recipe Check, 11"
+                    },
+                    {
+                        "name": "Shroom Mixing 3 - Shrooms Recipe Check, 12",
+                        "ref": "Mixes and Trash/Shroom Mixing 3/Shrooms Recipe Check, 12"
+                    },
+                    {
+                        "name": "Shroom Mixing 3 - Shrooms Recipe Check, 13",
+                        "ref": "Mixes and Trash/Shroom Mixing 3/Shrooms Recipe Check, 13"
+                    },
+                    {
+                        "name": "Shroom Mixing 3 - Shrooms Recipe Check, 14",
+                        "ref": "Mixes and Trash/Shroom Mixing 3/Shrooms Recipe Check, 14"
+                    },
+                    {
+                        "name": "Shroom Mixing 3 - Shrooms Recipe Check, 15",
+                        "ref": "Mixes and Trash/Shroom Mixing 3/Shrooms Recipe Check, 15"
+                    },
+                    {
+                        "name": "Cocaine Mixing 1 - Cocaine Recipe Check, 1",
+                        "ref": "Mixes and Trash/Cocaine Mixing 1/Cocaine Recipe Check, 1"
+                    },
+                    {
+                        "name": "Cocaine Mixing 1 - Cocaine Recipe Check, 2",
+                        "ref": "Mixes and Trash/Cocaine Mixing 1/Cocaine Recipe Check, 2"
+                    },
+                    {
+                        "name": "Cocaine Mixing 1 - Cocaine Recipe Check, 3",
+                        "ref": "Mixes and Trash/Cocaine Mixing 1/Cocaine Recipe Check, 3"
+                    },
+                    {
+                        "name": "Cocaine Mixing 1 - Cocaine Recipe Check, 4",
+                        "ref": "Mixes and Trash/Cocaine Mixing 1/Cocaine Recipe Check, 4"
+                    },
+                    {
+                        "name": "Cocaine Mixing 1 - Cocaine Recipe Check, 5",
+                        "ref": "Mixes and Trash/Cocaine Mixing 1/Cocaine Recipe Check, 5"
+                    },
+                    {
+                        "name": "Cocaine Mixing 2 - Cocaine Recipe Check, 6",
+                        "ref": "Mixes and Trash/Cocaine Mixing 2/Cocaine Recipe Check, 6"
+                    },
+                    {
+                        "name": "Cocaine Mixing 2 - Cocaine Recipe Check, 7",
+                        "ref": "Mixes and Trash/Cocaine Mixing 2/Cocaine Recipe Check, 7"
+                    },
+                    {
+                        "name": "Cocaine Mixing 2 - Cocaine Recipe Check, 8",
+                        "ref": "Mixes and Trash/Cocaine Mixing 2/Cocaine Recipe Check, 8"
+                    },
+                    {
+                        "name": "Cocaine Mixing 2 - Cocaine Recipe Check, 9",
+                        "ref": "Mixes and Trash/Cocaine Mixing 2/Cocaine Recipe Check, 9"
+                    },
+                    {
+                        "name": "Cocaine Mixing 2 - Cocaine Recipe Check, 10",
+                        "ref": "Mixes and Trash/Cocaine Mixing 2/Cocaine Recipe Check, 10"
+                    },
+                    {
+                        "name": "Cocaine Mixing 3 - Cocaine Recipe Check, 11",
+                        "ref": "Mixes and Trash/Cocaine Mixing 3/Cocaine Recipe Check, 11"
+                    },
+                    {
+                        "name": "Cocaine Mixing 3 - Cocaine Recipe Check, 12",
+                        "ref": "Mixes and Trash/Cocaine Mixing 3/Cocaine Recipe Check, 12"
+                    },
+                    {
+                        "name": "Cocaine Mixing 3 - Cocaine Recipe Check, 13",
+                        "ref": "Mixes and Trash/Cocaine Mixing 3/Cocaine Recipe Check, 13"
+                    },
+                    {
+                        "name": "Cocaine Mixing 3 - Cocaine Recipe Check, 14",
+                        "ref": "Mixes and Trash/Cocaine Mixing 3/Cocaine Recipe Check, 14"
+                    },
+                    {
+                        "name": "Cocaine Mixing 3 - Cocaine Recipe Check, 15",
+                        "ref": "Mixes and Trash/Cocaine Mixing 3/Cocaine Recipe Check, 15"
+                    },
+                    {
+                        "name": "Cash for Trash 1 - Cash for Trash 1, Collect 10 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 1/Cash for Trash 1, Collect 10 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 1 - Cash for Trash 2, Collect 20 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 1/Cash for Trash 2, Collect 20 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 1 - Cash for Trash 3, Collect 30 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 1/Cash for Trash 3, Collect 30 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 1 - Cash for Trash 4, Collect 40 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 1/Cash for Trash 4, Collect 40 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 1 - Cash for Trash 5, Collect 50 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 1/Cash for Trash 5, Collect 50 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 2 - Cash for Trash 6, Collect 60 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 2/Cash for Trash 6, Collect 60 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 2 - Cash for Trash 7, Collect 70 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 2/Cash for Trash 7, Collect 70 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 2 - Cash for Trash 8, Collect 80 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 2/Cash for Trash 8, Collect 80 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 2 - Cash for Trash 9, Collect 90 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 2/Cash for Trash 9, Collect 90 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 2 - Cash for Trash 10, Collect 100 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 2/Cash for Trash 10, Collect 100 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 3 - Cash for Trash 11, Collect 110 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 3/Cash for Trash 11, Collect 110 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 3 - Cash for Trash 12, Collect 120 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 3/Cash for Trash 12, Collect 120 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 3 - Cash for Trash 13, Collect 130 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 3/Cash for Trash 13, Collect 130 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 3 - Cash for Trash 14, Collect 140 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 3/Cash for Trash 14, Collect 140 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 3 - Cash for Trash 15, Collect 150 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 3/Cash for Trash 15, Collect 150 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 4 - Cash for Trash 16, Collect 160 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 4/Cash for Trash 16, Collect 160 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 4 - Cash for Trash 17, Collect 170 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 4/Cash for Trash 17, Collect 170 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 4 - Cash for Trash 18, Collect 180 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 4/Cash for Trash 18, Collect 180 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 4 - Cash for Trash 19, Collect 190 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 4/Cash for Trash 19, Collect 190 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 4 - Cash for Trash 20, Collect 200 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 4/Cash for Trash 20, Collect 200 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 5 - Cash for Trash 21, Collect 210 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 5/Cash for Trash 21, Collect 210 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 5 - Cash for Trash 22, Collect 220 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 5/Cash for Trash 22, Collect 220 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 5 - Cash for Trash 23, Collect 230 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 5/Cash for Trash 23, Collect 230 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 5 - Cash for Trash 24, Collect 240 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 5/Cash for Trash 24, Collect 240 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 5 - Cash for Trash 25, Collect 250 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 5/Cash for Trash 25, Collect 250 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 6 - Cash for Trash 26, Collect 260 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 6/Cash for Trash 26, Collect 260 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 6 - Cash for Trash 27, Collect 270 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 6/Cash for Trash 27, Collect 270 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 6 - Cash for Trash 28, Collect 280 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 6/Cash for Trash 28, Collect 280 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 6 - Cash for Trash 29, Collect 290 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 6/Cash for Trash 29, Collect 290 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 6 - Cash for Trash 30, Collect 300 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 6/Cash for Trash 30, Collect 300 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 7 - Cash for Trash 31, Collect 310 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 7/Cash for Trash 31, Collect 310 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 7 - Cash for Trash 32, Collect 320 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 7/Cash for Trash 32, Collect 320 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 7 - Cash for Trash 33, Collect 330 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 7/Cash for Trash 33, Collect 330 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 7 - Cash for Trash 34, Collect 340 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 7/Cash for Trash 34, Collect 340 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 7 - Cash for Trash 35, Collect 350 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 7/Cash for Trash 35, Collect 350 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 8 - Cash for Trash 36, Collect 360 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 8/Cash for Trash 36, Collect 360 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 8 - Cash for Trash 37, Collect 370 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 8/Cash for Trash 37, Collect 370 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 8 - Cash for Trash 38, Collect 380 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 8/Cash for Trash 38, Collect 380 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 8 - Cash for Trash 39, Collect 390 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 8/Cash for Trash 39, Collect 390 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 8 - Cash for Trash 40, Collect 400 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 8/Cash for Trash 40, Collect 400 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 9 - Cash for Trash 41, Collect 410 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 9/Cash for Trash 41, Collect 410 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 9 - Cash for Trash 42, Collect 420 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 9/Cash for Trash 42, Collect 420 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 9 - Cash for Trash 43, Collect 430 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 9/Cash for Trash 43, Collect 430 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 9 - Cash for Trash 44, Collect 440 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 9/Cash for Trash 44, Collect 440 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 9 - Cash for Trash 45, Collect 450 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 9/Cash for Trash 45, Collect 450 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 10 - Cash for Trash 46, Collect 460 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 10/Cash for Trash 46, Collect 460 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 10 - Cash for Trash 47, Collect 470 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 10/Cash for Trash 47, Collect 470 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 10 - Cash for Trash 48, Collect 480 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 10/Cash for Trash 48, Collect 480 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 10 - Cash for Trash 49, Collect 490 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 10/Cash for Trash 49, Collect 490 pieces of trash"
+                    },
+                    {
+                        "name": "Cash for Trash 10 - Cash for Trash 50, Collect 500 pieces of trash",
+                        "ref": "Mixes and Trash/Cash for Trash 10/Cash for Trash 50, Collect 500 pieces of trash"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 757,
+                        "y": 162,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Northtown",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kyle Cooley - Successful Sample Kyle Cooley",
+                        "ref": "Northtown/Kyle Cooley/Successful Sample Kyle Cooley"
+                    },
+                    {
+                        "name": "Austin Steiner - Successful Sample Austin Steiner",
+                        "ref": "Northtown/Austin Steiner/Successful Sample Austin Steiner"
+                    },
+                    {
+                        "name": "Kathy Henderson - Successful Sample Kathy Henderson",
+                        "ref": "Northtown/Kathy Henderson/Successful Sample Kathy Henderson"
+                    },
+                    {
+                        "name": "Jessi Waters - Successful Sample Jessi Waters",
+                        "ref": "Northtown/Jessi Waters/Successful Sample Jessi Waters"
+                    },
+                    {
+                        "name": "Sam Thompson - Successful Sample Sam Thompson",
+                        "ref": "Northtown/Sam Thompson/Successful Sample Sam Thompson"
+                    },
+                    {
+                        "name": "Mich Lubbin - Successful Sample Mick Lubbin",
+                        "ref": "Northtown/Mich Lubbin/Successful Sample Mick Lubbin"
+                    },
+                    {
+                        "name": "Beth Penn - Successful Sample Beth Penn",
+                        "ref": "Northtown/Beth Penn/Successful Sample Beth Penn"
+                    },
+                    {
+                        "name": "Chloe Bowers - Successful Sample Chloe Bowers",
+                        "ref": "Northtown/Chloe Bowers/Successful Sample Chloe Bowers"
+                    },
+                    {
+                        "name": "Donna Martin - Successful Sample Donna Martin",
+                        "ref": "Northtown/Donna Martin/Successful Sample Donna Martin"
+                    },
+                    {
+                        "name": "Geraldine Poon - Successful Sample Geraldine Poon",
+                        "ref": "Northtown/Geraldine Poon/Successful Sample Geraldine Poon"
+                    },
+                    {
+                        "name": "Ludwig Meyer - Successful Sample Ludwig Meyer",
+                        "ref": "Northtown/Ludwig Meyer/Successful Sample Ludwig Meyer"
+                    },
+                    {
+                        "name": "Mrs. Ming - Successful Sample Mrs. Ming",
+                        "ref": "Northtown/Mrs. Ming/Successful Sample Mrs. Ming"
+                    },
+                    {
+                        "name": "Peggy Myers - Successful Sample Peggy Myers",
+                        "ref": "Northtown/Peggy Myers/Successful Sample Peggy Myers"
+                    },
+                    {
+                        "name": "Peter File - Successful Sample Peter File",
+                        "ref": "Northtown/Peter File/Successful Sample Peter File"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 489,
+                        "y": 230,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Quests",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Welcome to Hyland Point - Open your phone and read your messages",
+                        "ref": "Quests/Welcome to Hyland Point/Open your phone and read your messages"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Talk to U.N. at a payphone",
+                        "ref": "Quests/Welcome to Hyland Point/Talk to U.N. at a payphone"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Collect the stash near the fountain",
+                        "ref": "Quests/Welcome to Hyland Point/Collect the stash near the fountain"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Collect the stash near the canal",
+                        "ref": "Quests/Welcome to Hyland Point/Collect the stash near the canal"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Collect the stash behind the supermarket",
+                        "ref": "Quests/Welcome to Hyland Point/Collect the stash behind the supermarket"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Head back to the RV",
+                        "ref": "Quests/Welcome to Hyland Point/Head back to the RV"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Investigate the explosion",
+                        "ref": "Quests/Welcome to Hyland Point/Investigate the explosion"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Read the note",
+                        "ref": "Quests/Welcome to Hyland Point/Read the note"
+                    },
+                    {
+                        "name": "Welcome to Hyland Point - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/Welcome to Hyland Point/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "Getting Started - Talk to the manager in the motel office",
+                        "ref": "Quests/Getting Started/Talk to the manager in the motel office"
+                    },
+                    {
+                        "name": "Getting Started - Rent a motel room",
+                        "ref": "Quests/Getting Started/Rent a motel room"
+                    },
+                    {
+                        "name": "Getting Started - Check out your motel room",
+                        "ref": "Quests/Getting Started/Check out your motel room"
+                    },
+                    {
+                        "name": "Gearing Up - Go to the hardware store",
+                        "ref": "Quests/Gearing Up/Go to the hardware store"
+                    },
+                    {
+                        "name": "Gearing Up - Buy 1x grow tent",
+                        "ref": "Quests/Gearing Up/Buy 1x grow tent"
+                    },
+                    {
+                        "name": "Gearing Up - Buy 1x soil",
+                        "ref": "Quests/Gearing Up/Buy 1x soil"
+                    },
+                    {
+                        "name": "Gearing Up - Buy 1x watering can",
+                        "ref": "Quests/Gearing Up/Buy 1x watering can"
+                    },
+                    {
+                        "name": "Gearing Up - Head back to the motel room",
+                        "ref": "Quests/Gearing Up/Head back to the motel room"
+                    },
+                    {
+                        "name": "Gearing Up - Place the grow tent and fill it with soil",
+                        "ref": "Quests/Gearing Up/Place the grow tent and fill it with soil"
+                    },
+                    {
+                        "name": "Gearing Up - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/Gearing Up/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "Gearing Up - Order 1x OG Kush Seed from Albert Hoover",
+                        "ref": "Quests/Gearing Up/Order 1x OG Kush Seed from Albert Hoover"
+                    },
+                    {
+                        "name": "Gearing Up - Wait for the dead drop",
+                        "ref": "Quests/Gearing Up/Wait for the dead drop"
+                    },
+                    {
+                        "name": "Gearing Up - Collect the dead drop",
+                        "ref": "Quests/Gearing Up/Collect the dead drop"
+                    },
+                    {
+                        "name": "Gearing Up - Sow a weed seed",
+                        "ref": "Quests/Gearing Up/Sow a weed seed"
+                    },
+                    {
+                        "name": "Gearing Up - Water the weed plant",
+                        "ref": "Quests/Gearing Up/Water the weed plant"
+                    },
+                    {
+                        "name": "Gearing Up - Harvest the weed plant once fully grown",
+                        "ref": "Quests/Gearing Up/Harvest the weed plant once fully grown"
+                    },
+                    {
+                        "name": "Gearing Up - Package at least 3x weed",
+                        "ref": "Quests/Gearing Up/Package at least 3x weed"
+                    },
+                    {
+                        "name": "Gearing Up - List OG Kush for sale in the product manager app",
+                        "ref": "Quests/Gearing Up/List OG Kush for sale in the product manager app"
+                    },
+                    {
+                        "name": "Packin - Buy 1x plant trimmers",
+                        "ref": "Quests/Packin/Buy 1x plant trimmers"
+                    },
+                    {
+                        "name": "Packin - Buy 1x packaging station",
+                        "ref": "Quests/Packin/Buy 1x packaging station"
+                    },
+                    {
+                        "name": "Packin - Buy 10x baggies",
+                        "ref": "Quests/Packin/Buy 10x baggies"
+                    },
+                    {
+                        "name": "Packin - Place the packaging station in the motel room",
+                        "ref": "Quests/Packin/Place the packaging station in the motel room"
+                    },
+                    {
+                        "name": "Keeping it Fresh - Place the soil bag and seed vial in the motel room trash can",
+                        "ref": "Quests/Keeping it Fresh/Place the soil bag and seed vial in the motel room trash can"
+                    },
+                    {
+                        "name": "Keeping it Fresh - Buy a trash bag from the hardware store",
+                        "ref": "Quests/Keeping it Fresh/Buy a trash bag from the hardware store"
+                    },
+                    {
+                        "name": "Keeping it Fresh - Bag the contents of the trash can",
+                        "ref": "Quests/Keeping it Fresh/Bag the contents of the trash can"
+                    },
+                    {
+                        "name": "Keeping it Fresh - Dispose of the trash bag",
+                        "ref": "Quests/Keeping it Fresh/Dispose of the trash bag"
+                    },
+                    {
+                        "name": "On the Grind - Wait for a message from a customer",
+                        "ref": "Quests/On the Grind/Wait for a message from a customer"
+                    },
+                    {
+                        "name": "On the Grind - Schedule your first deal",
+                        "ref": "Quests/On the Grind/Schedule your first deal"
+                    },
+                    {
+                        "name": "On the Grind - Complete your first deal",
+                        "ref": "Quests/On the Grind/Complete your first deal"
+                    },
+                    {
+                        "name": "On the Grind - Buy and place another grow tent",
+                        "ref": "Quests/On the Grind/Buy and place another grow tent"
+                    },
+                    {
+                        "name": "On the Grind - Complete 3 deals",
+                        "ref": "Quests/On the Grind/Complete 3 deals"
+                    },
+                    {
+                        "name": "On the Grind - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/On the Grind/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "On the Grind - Open the map app to see your potential customers",
+                        "ref": "Quests/On the Grind/Open the map app to see your potential customers"
+                    },
+                    {
+                        "name": "On the Grind - Offer a free sample to a potential customer",
+                        "ref": "Quests/On the Grind/Offer a free sample to a potential customer"
+                    },
+                    {
+                        "name": "Moving Up - Save 800 for a new property",
+                        "ref": "Quests/Moving Up/Save 800 for a new property"
+                    },
+                    {
+                        "name": "Moving Up - Talk to Mrs. Ming at the Chinese restaurant",
+                        "ref": "Quests/Moving Up/Talk to Mrs. Ming at the Chinese restaurant"
+                    },
+                    {
+                        "name": "Moving Up - Purchase the room above the Chinese Restaurant",
+                        "ref": "Quests/Moving Up/Purchase the room above the Chinese Restaurant"
+                    },
+                    {
+                        "name": "Moving Up - Move the grow tents and packaging station to the new room",
+                        "ref": "Quests/Moving Up/Move the grow tents and packaging station to the new room"
+                    },
+                    {
+                        "name": "Moving Up - Unlock 10 customers",
+                        "ref": "Quests/Moving Up/Unlock 10 customers"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/Dodgy Dealing/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Unlock Chloe, Ludwig, or Beth as customers",
+                        "ref": "Quests/Dodgy Dealing/Unlock Chloe, Ludwig, or Beth as customers"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Reach friendly relationship status with Chloe, Ludwig, or Beth",
+                        "ref": "Quests/Dodgy Dealing/Reach friendly relationship status with Chloe, Ludwig, or Beth"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Talk to Benji Coleman in Motel Room #2",
+                        "ref": "Quests/Dodgy Dealing/Talk to Benji Coleman in Motel Room #2"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Recruit Benji Coleman as a dealer",
+                        "ref": "Quests/Dodgy Dealing/Recruit Benji Coleman as a dealer"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Provide Benji with at least 10x Weed",
+                        "ref": "Quests/Dodgy Dealing/Provide Benji with at least 10x Weed"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Assign at least 3 customers to Benji",
+                        "ref": "Quests/Dodgy Dealing/Assign at least 3 customers to Benji"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Wait for Benji to complete a deal",
+                        "ref": "Quests/Dodgy Dealing/Wait for Benji to complete a deal"
+                    },
+                    {
+                        "name": "Dodgy Dealing - Collect the cash from Benji",
+                        "ref": "Quests/Dodgy Dealing/Collect the cash from Benji"
+                    },
+                    {
+                        "name": "Mixing Mania - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/Mixing Mania/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "Mixing Mania - Purchase a mixing station from the hardware store",
+                        "ref": "Quests/Mixing Mania/Purchase a mixing station from the hardware store"
+                    },
+                    {
+                        "name": "Mixing Mania - Place the mixing station",
+                        "ref": "Quests/Mixing Mania/Place the mixing station"
+                    },
+                    {
+                        "name": "Mixing Mania - Go to Gas-Mart",
+                        "ref": "Quests/Mixing Mania/Go to Gas-Mart"
+                    },
+                    {
+                        "name": "Mixing Mania - Purchase at least one mixing ingredient",
+                        "ref": "Quests/Mixing Mania/Purchase at least one mixing ingredient"
+                    },
+                    {
+                        "name": "Mixing Mania - Start a new mix at the mixing station",
+                        "ref": "Quests/Mixing Mania/Start a new mix at the mixing station"
+                    },
+                    {
+                        "name": "Mixing Mania - Wait for the mix to complete",
+                        "ref": "Quests/Mixing Mania/Wait for the mix to complete"
+                    },
+                    {
+                        "name": "Mixing Mania - Collect the new product",
+                        "ref": "Quests/Mixing Mania/Collect the new product"
+                    },
+                    {
+                        "name": "Mixing Mania - Mix a strain worth at least 60",
+                        "ref": "Quests/Mixing Mania/Mix a strain worth at least 60"
+                    },
+                    {
+                        "name": "Making the Rounds - Talk to the real estate agent",
+                        "ref": "Quests/Making the Rounds/Talk to the real estate agent"
+                    },
+                    {
+                        "name": "Making the Rounds - Talk to the dealership manager",
+                        "ref": "Quests/Making the Rounds/Talk to the dealership manager"
+                    },
+                    {
+                        "name": "Making the Rounds - Talk to the mechanic",
+                        "ref": "Quests/Making the Rounds/Talk to the mechanic"
+                    },
+                    {
+                        "name": "Needin the Green - Earn 10,000",
+                        "ref": "Quests/Needin the Green/Earn 10,000"
+                    },
+                    {
+                        "name": "Wretched Hive of Scum and Villainy - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/Wretched Hive of Scum and Villainy/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "Wretched Hive of Scum and Villainy - Gain access to the warehouse",
+                        "ref": "Quests/Wretched Hive of Scum and Villainy/Gain access to the warehouse"
+                    },
+                    {
+                        "name": "Wretched Hive of Scum and Villainy - Talk to the merchant",
+                        "ref": "Quests/Wretched Hive of Scum and Villainy/Talk to the merchant"
+                    },
+                    {
+                        "name": "Wretched Hive of Scum and Villainy - Talk to the arms dealer",
+                        "ref": "Quests/Wretched Hive of Scum and Villainy/Talk to the arms dealer"
+                    },
+                    {
+                        "name": "Wretched Hive of Scum and Villainy - Talk to the fixer",
+                        "ref": "Quests/Wretched Hive of Scum and Villainy/Talk to the fixer"
+                    },
+                    {
+                        "name": "We Need To Cook - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/We Need To Cook/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "We Need To Cook - Unlock the pseudo supplier in Westville",
+                        "ref": "Quests/We Need To Cook/Unlock the pseudo supplier in Westville"
+                    },
+                    {
+                        "name": "We Need To Cook - Purchase a chemistry station from Oscar",
+                        "ref": "Quests/We Need To Cook/Purchase a chemistry station from Oscar"
+                    },
+                    {
+                        "name": "We Need To Cook - Purchase a lab oven from Oscar",
+                        "ref": "Quests/We Need To Cook/Purchase a lab oven from Oscar"
+                    },
+                    {
+                        "name": "We Need To Cook - Purchase acid from Oscar",
+                        "ref": "Quests/We Need To Cook/Purchase acid from Oscar"
+                    },
+                    {
+                        "name": "We Need To Cook - Purchase phosphorus from Oscar",
+                        "ref": "Quests/We Need To Cook/Purchase phosphorus from Oscar"
+                    },
+                    {
+                        "name": "We Need To Cook - Message Shirley about buying some pseudo",
+                        "ref": "Quests/We Need To Cook/Message Shirley about buying some pseudo"
+                    },
+                    {
+                        "name": "We Need To Cook - Cook liquid meth at the chemistry station",
+                        "ref": "Quests/We Need To Cook/Cook liquid meth at the chemistry station"
+                    },
+                    {
+                        "name": "We Need To Cook - Bake the liquid meth with the lab oven",
+                        "ref": "Quests/We Need To Cook/Bake the liquid meth with the lab oven"
+                    },
+                    {
+                        "name": "Money Management - Deposit cash at an ATM",
+                        "ref": "Quests/Money Management/Deposit cash at an ATM"
+                    },
+                    {
+                        "name": "Clean Cash - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/Clean Cash/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "Clean Cash - Purchase a business at Rays Realty",
+                        "ref": "Quests/Clean Cash/Purchase a business at Rays Realty"
+                    },
+                    {
+                        "name": "Clean Cash - Go to your new business",
+                        "ref": "Quests/Clean Cash/Go to your new business"
+                    },
+                    {
+                        "name": "Clean Cash - Use the laundering station to start a new laundering operation",
+                        "ref": "Quests/Clean Cash/Use the laundering station to start a new laundering operation"
+                    },
+                    {
+                        "name": "Clean Cash - Wait for the laundering operation to complete",
+                        "ref": "Quests/Clean Cash/Wait for the laundering operation to complete"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Purchase a grain bag from Fungal Phil",
+                        "ref": "Quests/Vibin on the Cybin/Purchase a grain bag from Fungal Phil"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Purchase a spore syringe from Fungal Phil",
+                        "ref": "Quests/Vibin on the Cybin/Purchase a spore syringe from Fungal Phil"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Purchase a mushroom spawn station from Oscar",
+                        "ref": "Quests/Vibin on the Cybin/Purchase a mushroom spawn station from Oscar"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Use the mushroom spawn station to inocculate a grain bag",
+                        "ref": "Quests/Vibin on the Cybin/Use the mushroom spawn station to inocculate a grain bag"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Purchase a mushroom bed from Oscar",
+                        "ref": "Quests/Vibin on the Cybin/Purchase a mushroom bed from Oscar"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Purchase mushroom substrate from Fungal Phil",
+                        "ref": "Quests/Vibin on the Cybin/Purchase mushroom substrate from Fungal Phil"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Mix the shroom spawn into a mushroom bed",
+                        "ref": "Quests/Vibin on the Cybin/Mix the shroom spawn into a mushroom bed"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Purchase an AC unit from a hardware store",
+                        "ref": "Quests/Vibin on the Cybin/Purchase an AC unit from a hardware store"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Use the AC unit to cool the mushroom bed",
+                        "ref": "Quests/Vibin on the Cybin/Use the AC unit to cool the mushroom bed"
+                    },
+                    {
+                        "name": "Vibin on the Cybin - Harvest the shrooms once fully grown",
+                        "ref": "Quests/Vibin on the Cybin/Harvest the shrooms once fully grown"
+                    },
+                    {
+                        "name": "Cleaner - Use the management clipboard to assign the cleaner to a locker",
+                        "ref": "@Quests/Cleaner/Use the management clipboard to assign the cleaner to a locker"
+                    },
+                    {
+                        "name": "Cleaner - Assign a trash can to the cleaner",
+                        "ref": "@Quests/Cleaner/Assign a trash can to the cleaner"
+                    },
+                    {
+                        "name": "Cleaner - Place cash in the cleaner's locker",
+                        "ref": "@Quests/Cleaner/Place cash in the cleaner's locker"
+                    },
+                    {
+                        "name": "Botanist - Use the management clipboard to assign the botanist to a locker",
+                        "ref": "@Quests/Botanists/Use the management clipboard to assign the botanist to a locker"
+                    },
+                    {
+                        "name": "Botanist - Assign a supplies source to the botanist",
+                        "ref": "@Quests/Botanists/Assign a supplies source to the botanist"
+                    },
+                    {
+                        "name": "Botanist - Assign a pot or grow tent to the botanist",
+                        "ref": "@Quests/Botanists/Assign a pot or grow tent to the botanist"
+                    },
+                    {
+                        "name": "Botanists - Set the pot grow tent destination",
+                        "ref": "@Quests/Botanists/Set the pot grow tent destination"
+                    },
+                    {
+                        "name": "Botanists - Place cash in the botanist's locker",
+                        "ref": "@Quests/Botanists/Place cash in the botanist's locker"
+                    },
+                    {
+                        "name": "Handlers - Use the management clipboard to assign the handler to a locker",
+                        "ref": "Quests/Handlers/Use the management clipboard to assign the handler to a locker"
+                    },
+                    {
+                        "name": "Handlers - Assign a packaging station to the handler",
+                        "ref": "Quests/Handlers/Assign a packaging station to the handler"
+                    },
+                    {
+                        "name": "Handlers - Place cash in the handlers locker",
+                        "ref": "Quests/Handlers/Place cash in the handlers locker"
+                    },
+                    {
+                        "name": "Chemists - Use the management clipboard to assign the chemist to a locker",
+                        "ref": "Quests/Chemists/Use the management clipboard to assign the chemist to a locker"
+                    },
+                    {
+                        "name": "Chemists - Assign a station to the chemist",
+                        "ref": "Quests/Chemists/Assign a station to the chemist"
+                    },
+                    {
+                        "name": "Chemists - Place cash in the chemists locker",
+                        "ref": "Quests/Chemists/Place cash in the chemists locker"
+                    },
+                    {
+                        "name": "Unfavourable Agreements - Read the message from the unknown contact",
+                        "ref": "Quests/Unfavourable Agreements/Read the message from the unknown contact"
+                    },
+                    {
+                        "name": "Unfavourable Agreements - Meet the stranger at the parking lot next to Taco Ticklers",
+                        "ref": "Quests/Unfavourable Agreements/Meet the stranger at the parking lot next to Taco Ticklers"
+                    },
+                    {
+                        "name": "Finishing the Job - Talk to Uncle Nelson at a payphone",
+                        "ref": "Quests/Finishing the Job/Talk to Uncle Nelson at a payphone"
+                    },
+                    {
+                        "name": "Finishing the Job - Talk to Billy at the chemical plant about buying explosives",
+                        "ref": "Quests/Finishing the Job/Talk to Billy at the chemical plant about buying explosives"
+                    },
+                    {
+                        "name": "Finishing the Job - Trade Billy 20x cocaine in return for RDX",
+                        "ref": "Quests/Finishing the Job/Trade Billy 20x cocaine in return for RDX"
+                    },
+                    {
+                        "name": "Finishing the Job - Get Sam to dig access to the tunnel under Hyland Manor",
+                        "ref": "@Quests/Finishing the Job/Get Sam to dig access to the tunnel under Hyland Manor"
+                    },
+                    {
+                        "name": "Finishing the Job - Wait for Sam to dig access to the tunnel",
+                        "ref": "Quests/Finishing the Job/Wait for Sam to dig access to the tunnel"
+                    },
+                    {
+                        "name": "Finishing the Job - Talk to Stan about turning the RDX into a bomb",
+                        "ref": "Quests/Finishing the Job/Talk to Stan about turning the RDX into a bomb"
+                    },
+                    {
+                        "name": "Finishing the Job - Kill the thief who keeps stealing Stans supplies. He is often seen at the docks at night.",
+                        "ref": "Quests/Finishing the Job/Kill the thief who keeps stealing Stans supplies. He is often seen at the docks at night."
+                    },
+                    {
+                        "name": "Finishing the Job - Get Stan to turn the RDX into a bomb",
+                        "ref": "Quests/Finishing the Job/Get Stan to turn the RDX into a bomb"
+                    },
+                    {
+                        "name": "Finishing the Job - Plant the bomb under Hyland Manor",
+                        "ref": "@Quests/Finishing the Job/Plant the bomb under Hyland Manor"
+                    },
+                    {
+                        "name": "Finishing the Job - Wait for the bomb to detonate",
+                        "ref": "Quests/Finishing the Job/Wait for the bomb to detonate"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 115,
+                        "y": 656,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Ranks",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Street Rat - Rank Street Rat III",
+                        "ref": "Ranks/Street Rat/Rank Street Rat III"
+                    },
+                    {
+                        "name": "Street Rat - Rank Street Rat IV",
+                        "ref": "Ranks/Street Rat/Rank Street Rat IV"
+                    },
+                    {
+                        "name": "Street Rat - Rank Street Rat V",
+                        "ref": "Ranks/Street Rat/Rank Street Rat V"
+                    },
+                    {
+                        "name": "Hoodlum - Rank Hoodlum I",
+                        "ref": "Ranks/Hoodlum/Rank Hoodlum I"
+                    },
+                    {
+                        "name": "Hoodlum - Rank Hoodlum II",
+                        "ref": "Ranks/Hoodlum/Rank Hoodlum II"
+                    },
+                    {
+                        "name": "Hoodlum - Rank Hoodlum III",
+                        "ref": "Ranks/Hoodlum/Rank Hoodlum III"
+                    },
+                    {
+                        "name": "Hoodlum - Rank Hoodlum IV",
+                        "ref": "Ranks/Hoodlum/Rank Hoodlum IV"
+                    },
+                    {
+                        "name": "Hoodlum - Rank Hoodlum V",
+                        "ref": "Ranks/Hoodlum/Rank Hoodlum V"
+                    },
+                    {
+                        "name": "Peddler - Rank Peddler I",
+                        "ref": "Ranks/Peddler/Rank Peddler I"
+                    },
+                    {
+                        "name": "Peddler - Rank Peddler II",
+                        "ref": "Ranks/Peddler/Rank Peddler II"
+                    },
+                    {
+                        "name": "Peddler - Rank Peddler III",
+                        "ref": "Ranks/Peddler/Rank Peddler III"
+                    },
+                    {
+                        "name": "Peddler - Rank Peddler IV",
+                        "ref": "Ranks/Peddler/Rank Peddler IV"
+                    },
+                    {
+                        "name": "Peddler - Rank Peddler V",
+                        "ref": "Ranks/Peddler/Rank Peddler V"
+                    },
+                    {
+                        "name": "Hustler - Rank Hustler I",
+                        "ref": "Ranks/Hustler/Rank Hustler I"
+                    },
+                    {
+                        "name": "Hustler - Rank Hustler II",
+                        "ref": "Ranks/Hustler/Rank Hustler II"
+                    },
+                    {
+                        "name": "Hustler - Rank Hustler III",
+                        "ref": "Ranks/Hustler/Rank Hustler III"
+                    },
+                    {
+                        "name": "Bagman - Rank Bagman I",
+                        "ref": "Ranks/Bagman/Rank Bagman I"
+                    },
+                    {
+                        "name": "Bagman - Rank Bagman V",
+                        "ref": "Ranks/Bagman/Rank Bagman V"
+                    },
+                    {
+                        "name": "Enforcer - Rank Enforcer I",
+                        "ref": "Ranks/Enforcer/Rank Enforcer I"
+                    },
+                    {
+                        "name": "Block Boss - Rank Block Boss I",
+                        "ref": "Ranks/Block Boss/Rank Block Boss I"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 115,
+                        "y": 770,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Ray's Realty",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Barn - Realtor Purchase, Barn",
+                        "ref": "Ray's Realty/Barn/Realtor Purchase, Barn"
+                    },
+                    {
+                        "name": "Bungalow - Realtor Purchase, Bungalow",
+                        "ref": "Ray's Realty/Bungalow/Realtor Purchase, Bungalow"
+                    },
+                    {
+                        "name": "Docks Warehouse - Realtor Purchase, Docks Warehouse",
+                        "ref": "Ray's Realty/Docks Warehouse/Realtor Purchase, Docks Warehouse"
+                    },
+                    {
+                        "name": "Storage Unit - Realtor Purchase, Storage Unit",
+                        "ref": "Ray's Realty/Storage Unit/Realtor Purchase, Storage Unit"
+                    },
+                    {
+                        "name": "Car Wash - Realtor Purchase, Car Wash",
+                        "ref": "Ray's Realty/Car Wash/Realtor Purchase, Car Wash"
+                    },
+                    {
+                        "name": "Laundromat - Realtor Purchase, Laundromat",
+                        "ref": "Ray's Realty/Laundromat/Realtor Purchase, Laundromat"
+                    },
+                    {
+                        "name": "Post Office - Realtor Purchase, Post Office",
+                        "ref": "Ray's Realty/Post Office/Realtor Purchase, Post Office"
+                    },
+                    {
+                        "name": "Taco Ticklers - Realtor Purchase, Taco Ticklers",
+                        "ref": "Ray's Realty/Taco Ticklers/Realtor Purchase, Taco Ticklers"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 115,
+                        "y": 882,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Suburbia",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cartel Influence - Suburbia cartel influence 1",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 1"
+                    },
+                    {
+                        "name": "Cartel Influence - Suburbia cartel influence 2",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 2"
+                    },
+                    {
+                        "name": "Cartel Influence - Suburbia cartel influence 3",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 3"
+                    },
+                    {
+                        "name": "Cartel Influence - Suburbia cartel influence 4",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 4"
+                    },
+                    {
+                        "name": "Cartel Influence - Suburbia cartel influence 5",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 5"
+                    },
+                    {
+                        "name": "Cartel Influence - Suburbia cartel influence 6",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 6"
+                    },
+                    {
+                        "name": "Cartel Influence - Suburbia cartel influence 7",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 7"
+                    },
+                    {
+                        "name": "Alison Knight - Successful Sample Alison Knight",
+                        "ref": "Suburbia/Alison Knight/Successful Sample Alison Knight"
+                    },
+                    {
+                        "name": "Carl Bundy - Successful Sample Carl Bundy",
+                        "ref": "Suburbia/Carl Bundy/Successful Sample Carl Bundy"
+                    },
+                    {
+                        "name": "Chris Sullivan - Successful Sample Chris Sullivan",
+                        "ref": "Suburbia/Chris Sullivan/Successful Sample Chris Sullivan"
+                    },
+                    {
+                        "name": "Dennis Kennedy - Successful Sample Dennis Kennedy",
+                        "ref": "Suburbia/Dennis Kennedy/Successful Sample Dennis Kennedy"
+                    },
+                    {
+                        "name": "Hank Stevenson - Successful Sample Hank Stevenson",
+                        "ref": "Suburbia/Hank Stevenson/Successful Sample Hank Stevenson"
+                    },
+                    {
+                        "name": "Harold Colt - Successful Sample Harold Colt",
+                        "ref": "Suburbia/Harold Colt/Successful Sample Harold Colt"
+                    },
+                    {
+                        "name": "Jack Knight - Successful Sample Jack Knight",
+                        "ref": "Suburbia/Jack Knight/Successful Sample Jack Knight"
+                    },
+                    {
+                        "name": "Jackie Stevenson - Successful Sample Jackie Stevenson",
+                        "ref": "Suburbia/Jackie Stevenson/Successful Sample Jackie Stevenson"
+                    },
+                    {
+                        "name": "Jeremy Wilkinson - Successful Sample Jeremy Wilkinson",
+                        "ref": "Suburbia/Jeremy Wilkinson/Successful Sample Jeremy Wilkinson"
+                    },
+                    {
+                        "name": "Karen Kennedy - Successful Sample Karen Kennedy",
+                        "ref": "Suburbia/Karen Kennedy/Successful Sample Karen Kennedy"
+                    },
+                    {
+                        "name": "Wei Long - Recruit Suburbia Dealer Wei Long",
+                        "ref": "Suburbia/Wei Long/Recruit Suburbia Dealer Wei Long"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 894,
+                        "y": 805,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Uptown",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 1",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 1"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 2",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 2"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 3",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 3"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 4",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 4"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 5",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 5"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 6",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 6"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 7",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 7"
+                    },
+                    {
+                        "name": "Fiona Hancock - Successful Sample Fiona Hancock",
+                        "ref": "Uptown/Fiona Hancock/Successful Sample Fiona Hancock"
+                    },
+                    {
+                        "name": "Herbert Bleuball - Successful Sample Herbert Bleuball",
+                        "ref": "Uptown/Herbert Bleuball/Successful Sample Herbert Bleuball"
+                    },
+                    {
+                        "name": "Irene Meadows - Successful Sample Irene Meadows",
+                        "ref": "Uptown/Irene Meadows/Successful Sample Irene Meadows"
+                    },
+                    {
+                        "name": "Jen Heard - Successful Sample Jen Heard",
+                        "ref": "Uptown/Jen Heard/Successful Sample Jen Heard"
+                    },
+                    {
+                        "name": "Lily Turner - Successful Sample Lily Turner",
+                        "ref": "Uptown/Lily Turner/Successful Sample Lily Turner"
+                    },
+                    {
+                        "name": "Michael Boog - Successful Sample Michael Boog",
+                        "ref": "Uptown/Michael Boog/Successful Sample Michael Boog"
+                    },
+                    {
+                        "name": "Pearl Moore - Successful Sample Pearl Moore",
+                        "ref": "Uptown/Pearl Moore/Successful Sample Pearl Moore"
+                    },
+                    {
+                        "name": "Ray Hoffman - Successful Sample Ray Hoffman",
+                        "ref": "Uptown/Ray Hoffman/Successful Sample Ray Hoffman"
+                    },
+                    {
+                        "name": "Tobias Wentworth - Successful Sample Tobias Wentworth",
+                        "ref": "Uptown/Tobias Wentworth/Successful Sample Tobias Wentworth"
+                    },
+                    {
+                        "name": "Walter Cussler - Successful Sample Walter Cussler",
+                        "ref": "Uptown/Walter Cussler/Successful Sample Walter Cussler"
+                    },
+                    {
+                        "name": "Leo Rivers - Recruit Uptown Dealer Leo Rivers",
+                        "ref": "Uptown/Leo Rivers/Recruit Uptown Dealer Leo Rivers"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 908,
+                        "y": 474,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Westville",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cartel Influence - Westville cartel influence 1",
+                        "ref": "Westville/Cartel Influence/Westville cartel influence 1"
+                    },
+                    {
+                        "name": "Cartel Influence - Westville cartel influence 2",
+                        "ref": "Westville/Cartel Influence/Westville cartel influence 2"
+                    },
+                    {
+                        "name": "Charles Rowland - Successful Sample Charles Rowland",
+                        "ref": "Westville/Charles Rowland/Successful Sample Charles Rowland"
+                    },
+                    {
+                        "name": "Dean Webster - Successful Sample Dean Webster",
+                        "ref": "Westville/Dean Webster/Successful Sample Dean Webster"
+                    },
+                    {
+                        "name": "Doris Lubbin - Successful Sample Doris Lubbin",
+                        "ref": "Westville/Doris Lubbin/Successful Sample Doris Lubbin"
+                    },
+                    {
+                        "name": "George Greene - Successful Sample George Greene",
+                        "ref": "Westville/George Greene/Successful Sample George Greene"
+                    },
+                    {
+                        "name": "Jerry Montero - Successful Sample Jerry Montero",
+                        "ref": "Westville/Jerry Montero/Successful Sample Jerry Montero"
+                    },
+                    {
+                        "name": "Joyce Ball - Successful Sample Joyce Ball",
+                        "ref": "Westville/Joyce Ball/Successful Sample Joyce Ball"
+                    },
+                    {
+                        "name": "Keith Wagner - Successful Sample Keith Wagner",
+                        "ref": "Westville/Keith Wagner/Successful Sample Keith Wagner"
+                    },
+                    {
+                        "name": "Kim Delaney - Successful Sample Kim Delaney",
+                        "ref": "Westville/Kim Delaney/Successful Sample Kim Delaney"
+                    },
+                    {
+                        "name": "Meg Cooley - Successful Sample Meg Cooley",
+                        "ref": "Westville/Meg Cooley/Successful Sample Meg Cooley"
+                    },
+                    {
+                        "name": "Shirley Watts - Befriend Supplier Shirley Watts",
+                        "ref": "Westville/Shirley Watts/Befriend Supplier Shirley Watts"
+                    },
+                    {
+                        "name": "Trent Sherman - Successful Sample Trent Sherman",
+                        "ref": "Westville/Trent Sherman/Successful Sample Trent Sherman"
+                    },
+                    {
+                        "name": "Molly Presley - Recruit Westville Dealer Molly Presley",
+                        "ref": "Westville/Molly Presley/Recruit Westville Dealer Molly Presley"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 165,
+                        "y": 258,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

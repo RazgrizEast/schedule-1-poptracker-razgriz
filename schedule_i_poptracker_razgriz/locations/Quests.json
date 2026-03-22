@@ -1,0 +1,1204 @@
+[
+    {
+        "name": "Quests",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Welcome to Hyland Point",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Open your phone and read your messages",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to U.N. at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Collect the stash near the fountain",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Collect the stash near the canal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Collect the stash behind the supermarket",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Head back to the RV",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Investigate the explosion",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Read the note",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 156,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Getting Started",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to the manager in the motel office",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rent a motel room",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Check out your motel room",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 182,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Gearing Up",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Go to the hardware store",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy 1x grow tent",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy 1x soil",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy 1x watering can",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Head back to the motel room",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Place the grow tent and fill it with soil",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Order 1x OG Kush Seed from Albert Hoover",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wait for the dead drop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Collect the dead drop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sow a weed seed",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Water the weed plant",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harvest the weed plant once fully grown",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Package at least 3x weed",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "List OG Kush for sale in the product manager app",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 208,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Packin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Buy 1x plant trimmers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy 1x packaging station",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy 10x baggies",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Place the packaging station in the motel room",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 234,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Keeping it Fresh",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Place the soil bag and seed vial in the motel room trash can",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy a trash bag from the hardware store",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bag the contents of the trash can",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dispose of the trash bag",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 260,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "On the Grind",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Wait for a message from a customer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Schedule your first deal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete your first deal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buy and place another grow tent",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete 3 deals",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Open the map app to see your potential customers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Offer a free sample to a potential customer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 286,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Moving Up",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Save 800 for a new property",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to Mrs. Ming at the Chinese restaurant",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase the room above the Chinese Restaurant",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Move the grow tents and packaging station to the new room",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Unlock 10 customers",
+                        "access_rules": ["$has10MovingUpCustomers"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 312,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Dodgy Dealing",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": ["$has10MovingUpCustomers"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Unlock Chloe, Ludwig, or Beth as customers",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Reach friendly relationship status with Chloe, Ludwig, or Beth",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to Benji Coleman in Motel Room #2",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Recruit Benji Coleman as a dealer",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Provide Benji with at least 10x Weed",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assign at least 3 customers to Benji",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wait for Benji to complete a deal",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Collect the cash from Benji",
+                        "access_rules": ["$hasDodgyDealing"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 338,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Mixing Mania",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasDodgyDealing"
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase a mixing station from the hardware store",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Place the mixing station",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Go to Gas-Mart",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase at least one mixing ingredient",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Start a new mix at the mixing station",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wait for the mix to complete",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Collect the new product",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mix a strain worth at least 60",
+                        "access_rules": ["$hasMixingMania"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 364,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Making the Rounds",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasMixingMania"
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to the real estate agent",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to the dealership manager",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to the mechanic",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 390,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Needin the Green",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasMixingMania"
+                ],
+                "sections": [
+                    {
+                        "name": "Earn 10,000",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 416,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Wretched Hive of Scum and Villainy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasMixingMania"
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gain access to the warehouse",
+                        "access_rules": ["$hasWretchedHive"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to the merchant",
+                        "access_rules": ["$hasWretchedHive"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to the arms dealer",
+                        "access_rules": ["$hasWretchedHive"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to the fixer",
+                        "access_rules": ["$hasWretchedHive"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 442,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "We Need To Cook",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasWretchedHive"
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Unlock the pseudo supplier in Westville",
+                        "access_rules": ["$hasNeedCook1"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase a chemistry station from Oscar",
+                        "access_rules": ["$hasNeedCook2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase a lab oven from Oscar",
+                        "access_rules": ["$hasNeedCook2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase acid from Oscar",
+                        "access_rules": ["$hasNeedCook2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase phosphorus from Oscar",
+                        "access_rules": ["$hasNeedCook2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Message Shirley about buying some pseudo",
+                        "access_rules": ["$hasNeedCook2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cook liquid meth at the chemistry station",
+                        "access_rules": ["$hasNeedCook2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bake the liquid meth with the lab oven",
+                        "access_rules": ["$hasNeedCook2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 468,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Money Management",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Deposit cash at an ATM",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 494,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Clean Cash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalBusiness",
+                    "$hasRandomBusiness,laundromat",
+                    "$hasRandomBusiness,postoffice",
+                    "$hasRandomBusiness,carwash",
+                    "$hasRandomBusiness,tacoticklers"
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase a business at Rays Realty",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Go to your new business",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Use the laundering station to start a new laundering operation",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wait for the laundering operation to complete",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 171,
+                        "y": 519,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Vibin on the Cybin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachDowntown,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,warehouseaccess,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,warehouseaccess,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Purchase a grain bag from Fungal Phil",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase a spore syringe from Fungal Phil",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase a mushroom spawn station from Oscar",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Use the mushroom spawn station to inocculate a grain bag",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase a mushroom bed from Oscar",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase mushroom substrate from Fungal Phil",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mix the shroom spawn into a mushroom bed",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purchase an AC unit from a hardware store",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Use the AC unit to cool the mushroom bed",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harvest the shrooms once fully grown",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 666,
+                        "y": 155,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Cleaner",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomLevels,warehouseaccess",
+                    "$hasNormalLevels"
+                ],
+                "sections": [
+                    {
+                        "name": "Use the management clipboard to assign the cleaner to a locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assign a trash can to the cleaner",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Place cash in the cleaner's locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 666,
+                        "y": 207,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Botanists",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomLevels,warehouseaccess",
+                    "$hasNormalLevels"
+                ],
+                "sections": [
+                    {
+                        "name": "Use the management clipboard to assign the botanist to a locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assign a supplies source to the botanist",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assign a pot or grow tent to the botanist",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Set the pot grow tent destination",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Place cash in the botanist's locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 666,
+                        "y": 234,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Handlers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomLevels,warehouseaccess",
+                    "$hasNormalLevels"
+                ],
+                "sections": [
+                    {
+                        "name": "Use the management clipboard to assign the handler to a locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assign a packaging station to the handler",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Place cash in the handlers locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 666,
+                        "y": 261,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Chemists",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomLevels,warehouseaccess,mixingstationunlock",
+                    "$hasRandomLevels,warehouseaccess,mixingstationmk2unlock",
+                    "$hasNormalLevels"
+                ],
+                "sections": [
+                    {
+                        "name": "Use the management clipboard to assign the chemist to a locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assign a station to the chemist",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Place cash in the chemists locker",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 666,
+                        "y": 288,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Unfavourable Agreements",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasUnfavourableAgreement"
+                ],
+                "sections": [
+                    {
+                        "name": "Read the message from the unknown contact",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meet the stranger at the parking lot next to Taco Ticklers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 666,
+                        "y": 337,
+                        "size": 20
+                    }
+                ]
+            },
+            {
+                "name": "Finishing the Job",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFinishJob1"
+                ],
+                "sections": [
+                    {
+                        "name": "Talk to Uncle Nelson at a payphone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to Billy at the chemical plant about buying explosives",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trade Billy 20x cocaine in return for RDX",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Get Sam to dig access to the tunnel under Hyland Manor",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wait for Sam to dig access to the tunnel",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Talk to Stan about turning the RDX into a bomb",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill the thief who keeps stealing Stans supplies. He is often seen at the docks at night.",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Get Stan to turn the RDX into a bomb",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plant the bomb under Hyland Manor",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wait for the bomb to detonate",
+                        "access_rules": ["$hasFinishJob2"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quests",
+                        "x": 666,
+                        "y": 364,
+                        "size": 20
+                    }
+                ]
+            }
+        ]
+    }
+]

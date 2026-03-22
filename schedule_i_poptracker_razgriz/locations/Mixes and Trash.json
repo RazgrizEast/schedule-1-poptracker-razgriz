@@ -1,0 +1,1249 @@
+[
+    {
+        "name": "Mixes and Trash",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Sewer",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachUptown"
+                ],
+                "sections": [
+                    {
+                        "name": "Jen Heard Sewer Key Purchase",
+                        "access_rules": ["$hasNormalCustomers",
+                                        "$hasRandomizeCustomers,jenheardunlocked"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sewer Office Key Pad",
+                        "access_rules": ["$hasNormalCustomers,$hasRandomSewer,sewerkey",
+                                        "$hasRandomizeCustomers,jenheardunlocked,$hasRandomSewer,sewerkey",
+                                        "$hasNormalCustomers,$hasNormalSewer",
+                                        "$hasRandomizeCustomers,jenheardunlocked,$hasNormalSewer"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 861,
+                        "y": 437,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Weed Mixing 1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalLevels",
+                    "$hasRandomLevels,mixingstationunlock",
+                    "$hasRandomLevels,mixingstationmk2unlock"
+                ],
+                "sections": [
+                    {
+                        "name": "Weed Recipe Check, 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 4",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 5",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|5"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 150,
+                        "y": 170,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Weed Mixing 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalLevels",
+                    "$hasRandomLevels,mixingstationunlock",
+                    "$hasRandomLevels,mixingstationmk2unlock"
+                ],
+                "sections": [
+                    {
+                        "name": "Weed Recipe Check, 6",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 7",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 8",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 9",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|9"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 10",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|10"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 200,
+                        "y": 170,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Weed Mixing 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalLevels",
+                    "$hasRandomLevels,mixingstationunlock",
+                    "$hasRandomLevels,mixingstationmk2unlock"
+                ],
+                "sections": [
+                    {
+                        "name": "Weed Recipe Check, 11",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|11"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 12",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|12"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 13",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|13"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 14",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|14"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weed Recipe Check, 15",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|15"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 250,
+                        "y": 170,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Meth Mixing 1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachWestville,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Meth Recipe Check, 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 4",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 5",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|5"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 150,
+                        "y": 290,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Meth Mixing 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachWestville,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Meth Recipe Check, 6",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 7",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 8",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 9",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|9"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 10",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|10"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 200,
+                        "y": 290,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Meth Mixing 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachWestville,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Meth Recipe Check, 11",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|11"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 12",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|12"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 13",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|13"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 14",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|14"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meth Recipe Check, 15",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|15"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 250,
+                        "y": 290,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Shroom Mixing 1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachDowntown,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Shrooms Recipe Check, 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 4",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 5",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|5"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 150,
+                        "y": 410,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Shroom Mixing 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachDowntown,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Shrooms Recipe Check, 6",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 7",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 8",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 9",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|9"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 10",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|10"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 200,
+                        "y": 410,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Shroom Mixing 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachDowntown,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasNormalLevels,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,fungalphilunlocked",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,kevinoakleyunlocked,$hasNormalSuppliers",
+                    "$canReachDowntown,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,elizabethhomleyunlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Shrooms Recipe Check, 11",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|11"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 12",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|12"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 13",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|13"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 14",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|14"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrooms Recipe Check, 15",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|15"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 250,
+                        "y": 410,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cocaine Mixing 1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachDocks,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Cocaine Recipe Check, 1",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 4",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 5",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|5"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 150,
+                        "y": 510,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cocaine Mixing 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachDocks,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Cocaine Recipe Check, 6",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 7",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 8",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 9",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|9"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 10",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|10"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 200,
+                        "y": 510,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cocaine Mixing 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$canReachDocks,$hasNormalLevels,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
+                ],
+                "sections": [
+                    {
+                        "name": "Cocaine Recipe Check, 11",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|11"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 12",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|12"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 13",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|13"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 14",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|14"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cocaine Recipe Check, 15",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughRecipes|15"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 250,
+                        "y": 510,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 1, Collect 10 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 2, Collect 20 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 3, Collect 30 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 4, Collect 40 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 5, Collect 50 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|5"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 740,
+                        "y": 169,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 6, Collect 60 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 7, Collect 70 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 8, Collect 80 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 9, Collect 90 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|9"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 10, Collect 100 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|10"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 800,
+                        "y": 169,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasDodgyDealing]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 11, Collect 110 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|11"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 12, Collect 120 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|12"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 13, Collect 130 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|13"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 14, Collect 140 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|14"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 15, Collect 150 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|15"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 860,
+                        "y": 169,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 4",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasDodgyDealing]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 16, Collect 160 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|16"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 17, Collect 170 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|17"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 18, Collect 180 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|18"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 19, Collect 190 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|19"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 20, Collect 200 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|20"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 920,
+                        "y": 169,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 5",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasMixingMania]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 21, Collect 210 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|21"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 22, Collect 220 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|22"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 23, Collect 230 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|23"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 24, Collect 240 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|24"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 25, Collect 250 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|25"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 980,
+                        "y": 169,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 6",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasMixingMania]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 26, Collect 260 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|26"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 27, Collect 270 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|27"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 28, Collect 280 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|28"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 29, Collect 290 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|29"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 30, Collect 300 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|30"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 740,
+                        "y": 219,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 7",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasNeedCook2]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 31, Collect 310 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|31"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 32, Collect 320 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|32"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 33, Collect 330 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|33"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 34, Collect 340 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|34"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 35, Collect 350 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|35"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 800,
+                        "y": 219,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 8",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasNeedCook2]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 36, Collect 360 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|36"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 37, Collect 370 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|37"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 38, Collect 380 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|38"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 39, Collect 390 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|39"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 40, Collect 400 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|40"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 860,
+                        "y": 219,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 9",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasFinishJob1]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 41, Collect 410 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|41"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 42, Collect 420 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|42"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 43, Collect 430 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|43"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 44, Collect 440 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|44"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 45, Collect 450 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|45"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 920,
+                        "y": 219,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cash for Trash 10",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "[$hasFinishJob1]"
+                ],
+                "sections": [
+                    {
+                        "name": "Cash for Trash 46, Collect 460 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|46"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 47, Collect 470 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|47"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 48, Collect 480 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|48"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 49, Collect 490 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|49"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cash for Trash 50, Collect 500 pieces of trash",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasEnoughTrash|50"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mixes and Trash",
+                        "x": 980,
+                        "y": 219,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

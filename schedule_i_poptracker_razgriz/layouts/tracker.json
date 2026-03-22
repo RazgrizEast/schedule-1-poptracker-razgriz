@@ -1,0 +1,126 @@
+{
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Dealers",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "dealers_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Suppliers",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "suppliers_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Northtown",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "northtown_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Westville",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "westville_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Downtown",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "downtown_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Docks",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "docks_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Suburbia",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "suburbia_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Uptown",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "uptown_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Cartel",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "cartel_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Places",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "places_grid"
+                            }
+                        },
+                                               {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "items_grid"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": [
+                        {
+                            "type": "layout",
+                            "key": "tabbed_maps_horizontal"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,409 @@
+[
+    {
+        "name": "Northtown",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Kyle Cooley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,kylecooleyunlocked",
+                    "$hasRandomizeCustomers,jessiwatersunlocked",
+                    "$hasRandomizeCustomers,austinsteinerunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Kyle Cooley",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 73,
+                        "y": 187,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Austin Steiner",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,austinsteinerunlocked",
+                    "$hasRandomizeCustomers,kylecooleyunlocked",
+                    "$hasRandomizeCustomers,kathyhendersonunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Austin Steiner",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 195,
+                        "y": 67,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Kathy Henderson",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,kathyhendersonunlocked",
+                    "$hasRandomizeCustomers,austinsteinerunlocked",
+                    "$hasRandomizeCustomers,donnamartinunlocked",
+                    "$hasRandomizeCustomers,geraldinepoonunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Kathy Henderson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 317,
+                        "y": 71,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jessi Waters",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,jessiwatersunlocked",
+                    "$hasRandomizeCustomers,kylecooleyunlocked",
+                    "$hasRandomizeCustomers,samthompsonunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jessi Waters",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 142,
+                        "y": 371,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Sam Thompson",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,samthompsonunlocked",
+                    "$hasRandomizeCustomers,jessiwatersunlocked",
+                    "$hasRandomizeCustomers,micklubbinunlocked",
+                    "$hasRandomizeCustomers,chloebowersunlocked",
+                    "$hasRandomizeCustomers,peterfileunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Sam Thompson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 354,
+                        "y": 334,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Mich Lubbin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,micklubbinunlocked",
+                    "$hasRandomizeCustomers,samthompsonunlocked",
+                    "$hasRandomizeCustomers,geraldinepoonunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Mick Lubbin",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 320,
+                        "y": 194,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Beth Penn",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,bethpennunlocked",
+                    "$hasRandomizeCustomers,peggymyersunlocked",
+                    "$hasRandomizeCustomers,mrsmingunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Beth Penn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 684,
+                        "y": 127,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Chloe Bowers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,chloebowersunlocked",
+                    "$hasRandomizeCustomers,samthompsonunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Chloe Bowers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 441,
+                        "y": 310,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Donna Martin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,donnamartinunlocked",
+                    "$hasRandomizeCustomers,peggymyersunlocked",
+                    "$hasRandomizeCustomers,kathyhendersonunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Donna Martin",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 496,
+                        "y": 48,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Geraldine Poon",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,geraldinepoonunlocked",
+                    "$hasRandomizeCustomers,kathyhendersonunlocked",
+                    "$hasRandomizeCustomers,micklubbinunlocked",
+                    "$hasRandomizeCustomers,peggymyersunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Geraldine Poon",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 440,
+                        "y": 135,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Ludwig Meyer",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,ludwigmeyerunlocked",
+                    "$hasRandomizeCustomers,peterfileunlocked",
+                    "$hasRandomizeCustomers,mrsmingunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Ludwig Meyer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 623,
+                        "y": 490,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Mrs. Ming",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,mrsmingunlocked",
+                    "$hasRandomizeCustomers,bethpennunlocked",
+                    "$hasRandomizeCustomers,ludwigmeyerunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Mrs. Ming",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 686,
+                        "y": 419,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Peggy Myers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,peggymyersunlocked",
+                    "$hasRandomizeCustomers,bethpennunlocked",
+                    "$hasRandomizeCustomers,donnamartinunlocked",
+                    "$hasRandomizeCustomers,geraldinepoonunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Peggy Myers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 565,
+                        "y": 68,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Peter File",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRandomizeCustomers,peterfileunlocked",
+                    "$hasRandomizeCustomers,samthompsonunlocked",
+                    "$hasRandomizeCustomers,ludwigmeyerunlocked",
+                    "$hasNormalCustomers"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Peter File",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Northtown",
+                        "x": 267,
+                        "y": 485,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

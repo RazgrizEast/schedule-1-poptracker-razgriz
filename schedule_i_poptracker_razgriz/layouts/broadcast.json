@@ -1,0 +1,53 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+        "type": "layout",
+        "key": "dealers_grid"
+      },
+      {
+        "type": "layout",
+        "key": "suppliers_grid"
+      },
+      {
+        "type": "layout",
+        "key": "northtown_grid"
+      },
+      {
+        "type": "layout",
+        "key": "westville_grid"
+      },
+      {
+        "type": "layout",
+        "key": "downtown_grid"
+      },
+      {
+        "type": "layout",
+        "key": "docks_grid"
+      },
+      {
+        "type": "layout",
+        "key": "suburbia_grid"
+      },
+      {
+        "type": "layout",
+        "key": "uptown_grid"
+      },
+      {
+        "type": "layout",
+        "key": "cartel_grid"
+      },
+      {
+        "type": "layout",
+        "key": "places_grid"
+      },
+      {
+        "type": "layout",
+        "key": "items_grid"
+      }
+    ]
+  }
+}

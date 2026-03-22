@@ -1,0 +1,101 @@
+{
+  "tabbed_maps_horizontal": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Overworld",
+        "content": { "type": "map", "maps": ["Overworld"] }
+      },
+      {
+        "title": "Quests",
+        "content": { "type": "map", "maps": ["Quests"] }
+      },
+      {
+        "title": "Ranks",
+        "content": { "type": "map", "maps": ["Ranks"] }
+      },
+      {
+        "title": "Ray's Realty",
+        "content": { "type": "map", "maps": ["Ray's Realty"] }
+      },
+      {
+        "title": "Northtown",
+        "content": { "type": "map", "maps": ["Northtown"] }
+      },
+      {
+        "title": "Westville",
+        "content": { "type": "map", "maps": ["Westville"] }
+      },
+      {
+        "title": "Downtown",
+        "content": { "type": "map", "maps": ["Downtown"] }
+      },
+      {
+        "title": "Docks",
+        "content": { "type": "map", "maps": ["Docks"] }
+      },
+      {
+        "title": "Suburbia",
+        "content": { "type": "map", "maps": ["Suburbia"] }
+      },
+      {
+        "title": "Uptown",
+        "content": { "type": "map", "maps": ["Uptown"] }
+      },
+      {
+        "title": "Mixes and Trash",
+        "content": { "type": "map", "maps": ["Mixes and Trash"] }
+      }
+    ]
+  },
+
+  "tabbed_maps_vertical": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Overworld",
+        "content": { "type": "map", "maps": ["Overworld"] }
+      },
+      {
+        "title": "Quests",
+        "content": { "type": "map", "maps": ["Quests"] }
+      },
+      {
+        "title": "Ranks",
+        "content": { "type": "map", "maps": ["Ranks"] }
+      },
+      {
+        "title": "Ray's Realty",
+        "content": { "type": "map", "maps": ["Ray's Realty"] }
+      },
+      {
+        "title": "Northtown",
+        "content": { "type": "map", "maps": ["Northtown"] }
+      },
+      {
+        "title": "Westville",
+        "content": { "type": "map", "maps": ["Westville"] }
+      },
+      {
+        "title": "Docks",
+        "content": { "type": "map", "maps": ["Docks"] }
+      },
+      {
+        "title": "Downtown",
+        "content": { "type": "map", "maps": ["Downtown"] }
+      },
+      {
+        "title": "Suburbia",
+        "content": { "type": "map", "maps": ["Suburbia"] }
+      },
+      {
+        "title": "Uptown",
+        "content": { "type": "map", "maps": ["Uptown"] }
+      },
+      {
+        "title": "Mixes and Trash",
+        "content": { "type": "map", "maps": ["Mixes and Trash"] }
+      }
+    ]
+  }
+}

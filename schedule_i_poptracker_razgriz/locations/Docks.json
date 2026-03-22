@@ -1,0 +1,450 @@
+[
+    {
+        "name": "Docks",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "$canReachDocks"
+        ],
+        "children": [
+            {
+                "name": "Cartel Influence",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasUnfavourableAgreement"
+                ],
+                "sections": [
+                    {
+                        "name": "Docks cartel influence 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Docks cartel influence 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Docks cartel influence 3",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Docks cartel influence 4",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Docks cartel influence 5",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Docks cartel influence 6",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Docks cartel influence 7",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 642,
+                        "y": 105,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Anna Chesterfield",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,annachesterfieldunlocked",
+                    "$hasRandomizeCustomers,lisagardenerunlocked",
+                    "$hasRandomizeCustomers,crankyfrankunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Anna Chesterfield",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 133,
+                        "y": 480,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Billy Kramer",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,billykramerunlocked",
+                    "$hasRandomizeCustomers,maccooperunlocked",
+                    "$hasRandomizeCustomers,shermangilesunlocked",
+                    "$hasRandomizeDealers,janelucerorecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Billy Kramer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 623,
+                        "y": 210,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cranky Frank",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,crankyfrankunlocked",
+                    "$hasRandomizeCustomers,annachesterfieldunlocked",
+                    "$hasRandomizeCustomers,genghisbarnunlocked",
+                    "$hasRandomizeCustomers,marcobaroneunlocked",
+                    "$hasRandomizeCustomers,melissawoodunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Cranky Frank",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 255,
+                        "y": 475,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Genghis Barn",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,genghisbarnunlocked",
+                    "$hasRandomizeCustomers,crankyfrankunlocked",
+                    "$hasRandomizeCustomers,javierperezunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Genghis Barn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 255,
+                        "y": 214,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Javier Perez",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,javierperezunlocked",
+                    "$hasRandomizeCustomers,genghisbarnunlocked",
+                    "$hasRandomizeCustomers,marcobaroneunlocked",
+                    "$hasRandomizeCustomers,lisagardenerunlocked",
+                    "$hasRandomizeSuppliers,salvadormorenounlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Javier Perez",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 327,
+                        "y": 112,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Salvador Moreno",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,javierperezunlocked",
+                    "$hasRandomizeCustomers,kellyreynoldsunlocked",
+                    "$hasRandomizeCustomers,maccooperunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Befriend Supplier Salvador Moreno",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasNormalSuppliers"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 572,
+                        "y": 160,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Kelly Reynolds",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,kellyreynoldsunlocked",
+                    "$hasRandomizeCustomers,lisagardenerunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Kelly Reynolds",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 456,
+                        "y": 34,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Lisa Gardener",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,lisagardenerunlocked",
+                    "$hasRandomizeCustomers,annachesterfieldunlocked",
+                    "$hasRandomizeCustomers,javierperezunlocked",
+                    "$hasRandomizeCustomers,kellyreynoldsunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Lisa Gardener",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 66,
+                        "y": 155,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Mac Cooper",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,maccooperunlocked",
+                    "$hasRandomizeCustomers,billykramerunlocked",
+                    "$hasRandomizeCustomers,marcobaroneunlocked",
+                    "$hasRandomizeSuppliers,salvadormorenounlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Mac Cooper",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 550,
+                        "y": 232,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Marco Barone",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,marcobaroneunlocked",
+                    "$hasRandomizeCustomers,crankyfrankunlocked",
+                    "$hasRandomizeCustomers,maccooperunlocked",
+                    "$hasRandomizeCustomers,shermangilesunlocked",
+                    "$hasRandomizeCustomers,javierperezunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Marco Barone",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 377,
+                        "y": 343,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Melissa Wood",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,melissawoodunlocked",
+                    "$hasRandomizeCustomers,crankyfrankunlocked",
+                    "$hasRandomizeCustomers,shermangilesunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Melissa Wood",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 379,
+                        "y": 454,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Sherman Giles",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,shermangilesunlocked",
+                    "$hasRandomizeCustomers,billykramerunlocked",
+                    "$hasRandomizeCustomers,marcobaroneunlocked",
+                    "$hasRandomizeCustomers,melissawoodunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Sherman Giles",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 432,
+                        "y": 401,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jane Lucero",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalDealers,$hasNormalCustomers",
+                    "$hasNormalCustomers,$hasRandomizeDealers,[janelucerorecruited]",
+                    "$hasNormalDealers,$hasRandomizeCustomers,melissawoodunlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,billykramerunlocked",
+                    "$hasRandomizeCustomers,$hasRandomizeDealers,janelucerorecruited",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,melissawoodunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,billykramerunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Recruit Docks Dealer Jane Lucero",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 671,
+                        "y": 477,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+{
+    "name": "Schedule I Archipelago PopTracker",
+    "game_name": "Schedule I",
+    "package_version": "1.0.0",
+    "package_uid": "schedule_i_poptracker_razgriz",
+    "author": "Razgriz",
+    "variants": {
+        "Map Tracker": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "Items Only": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.31.0"
+}

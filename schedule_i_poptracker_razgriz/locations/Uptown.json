@@ -1,0 +1,393 @@
+[
+    {
+        "name": "Uptown",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "$canReachUptown"
+        ],
+        "children": [
+            {
+                "name": "Cartel Influence",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasUnfavourableAgreement"
+                ],
+                "sections": [
+                    {
+                        "name": "Uptown cartel influence 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uptown cartel influence 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uptown cartel influence 3",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uptown cartel influence 4",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uptown cartel influence 5",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uptown cartel influence 6",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Uptown cartel influence 7",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 113,
+                        "y": 183,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Fiona Hancock",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,fionahancockunlocked",
+                    "$hasRandomizeCustomers,waltercusslerunlocked",
+                    "$hasRandomizeCustomers,lilyturnerunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Fiona Hancock",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 82,
+                        "y": 471,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Herbert Bleuball",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,herbertbleuballunlocked",
+                    "$hasRandomizeCustomers,pearlmooreunlocked",
+                    "$hasRandomizeCustomers,tobiaswentworthunlocked",
+                    "$hasRandomizeCustomers,jenheardunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Herbert Bleuball",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 404,
+                        "y": 413,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Irene Meadows",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,irenemeadowsunlocked",
+                    "$hasRandomizeCustomers,rayhoffmanunlocked",
+                    "$hasRandomizeCustomers,michaelboogunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Irene Meadows",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 311,
+                        "y": 85,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jen Heard",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jenheardunlocked",
+                    "$hasRandomizeCustomers,herbertbleuballunlocked",
+                    "$hasRandomizeCustomers,waltercusslerunlocked",
+                    "$hasRandomizeCustomers,rayhoffmanunlocked",
+                    "$hasRandomizeCustomers,lilyturnerunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jen Heard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 319,
+                        "y": 383,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Lily Turner",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,lilyturnerunlocked",
+                    "$hasRandomizeCustomers,fionahancockunlocked",
+                    "$hasRandomizeCustomers,jenheardunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Lily Turner",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 75,
+                        "y": 342,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Michael Boog",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,michaelboogunlocked",
+                    "$hasRandomizeCustomers,irenemeadowsunlocked",
+                    "$hasRandomizeCustomers,tobiaswentworthunlocked",
+                    "$hasRandomizeDealers,leoriversrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Michael Boog",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 596,
+                        "y": 212,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Pearl Moore",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,pearlmooreunlocked",
+                    "$hasRandomizeCustomers,herbertbleuballunlocked",
+                    "$hasRandomizeCustomers,tobiaswentworthunlocked",
+                    "$hasRandomizeCustomers,waltercusslerunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Pearl Moore",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 596,
+                        "y": 470,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Ray Hoffman",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,rayhoffmanunlocked",
+                    "$hasRandomizeCustomers,irenemeadowsunlocked",
+                    "$hasRandomizeCustomers,jenheardunlocked",
+                    "$hasRandomizeDealers,leoriversrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Ray Hoffman",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 209,
+                        "y": 215,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Tobias Wentworth",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,tobiaswentworthunlocked",
+                    "$hasRandomizeCustomers,herbertbleuballunlocked",
+                    "$hasRandomizeCustomers,pearlmooreunlocked",
+                    "$hasRandomizeCustomers,michaelboogunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Tobias Wentworth",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 596,
+                        "y": 342,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Walter Cussler",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,waltercusslerunlocked",
+                    "$hasRandomizeCustomers,fionahancockunlocked",
+                    "$hasRandomizeCustomers,jenheardunlocked",
+                    "$hasRandomizeCustomers,michaelboogunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Walter Cussler",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 277,
+                        "y": 528,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Leo Rivers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalDealers,$hasNormalCustomers",
+                    "$hasNormalCustomers,$hasRandomizeDealers,[leoriversrecruited]",
+                    "$hasNormalDealers,$hasRandomizeCustomers,rayhoffmanunlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,michaelboogunlocked",
+                    "$hasRandomizeCustomers,$hasRandomizeDealers,leoriversrecruited",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,rayhoffmanunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,michaelboogunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Recruit Uptown Dealer Leo Rivers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Uptown",
+                        "x": 399,
+                        "y": 161,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

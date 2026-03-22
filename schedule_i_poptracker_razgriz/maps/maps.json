@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Overworld",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "Quests",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/quests.png"
+    },
+    {
+        "name": "Northtown",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/northtown.png"
+    },
+    {
+        "name": "Westville",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/westville.png"
+    },
+    {
+        "name": "Downtown",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/downtown.png"
+    },
+    {
+        "name": "Docks",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/docks.png"
+    },
+    {
+        "name": "Suburbia",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/suburbia.png"
+    },
+    {
+        "name": "Uptown",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/uptown.png"
+    },
+    {
+        "name": "Ray's Realty",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/raysrealty.png"
+    },
+    {
+        "name": "Ranks",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/ranks.png"
+    },
+    {
+        "name": "Mixes and Trash",
+        "location_size": 24,
+        "location_border_thickness": 1,
+        "img": "images/maps/mixesandtrash.png"
+    }
+]

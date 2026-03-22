@@ -1,0 +1,455 @@
+[
+    {
+        "name": "Downtown",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "$canReachDowntown"
+        ],
+        "children": [
+            {
+                "name": "Cartel Influence",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasUnfavourableAgreement"
+                ],
+                "sections": [
+                    {
+                        "name": "Downtown cartel influence 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown cartel influence 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown cartel influence 3",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown cartel influence 4",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown cartel influence 5",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown cartel influence 6",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downtown cartel influence 7",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 99,
+                        "y": 526,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Fungal Phil",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,elizabethhomleyunlocked",
+                    "$hasRandomizeCustomers,kevinoakleyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Befriend Supplier Fungal Phil",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasNormalSuppliers"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 64,
+                        "y": 97,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Bruce Norton",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,brucenortonunlocked",
+                    "$hasRandomizeCustomers,jeffgilmoreunlocked",
+                    "$hasRandomizeCustomers,philipwentworthunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Bruce Norton",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 777,
+                        "y": 218,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Elizabeth Homley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,elizabethhomleyunlocked",
+                    "$hasRandomizeCustomers,jenniferriveraunlocked",
+                    "$hasRandomizeCustomers,louisfourierunlocked",
+                    "$hasRandomizeSuppliers,fungalphilunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Elizabeth Homley",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 62,
+                        "y": 225,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Eugene Buckley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,eugenebuckleyunlocked",
+                    "$hasRandomizeCustomers,louisfourierunlocked",
+                    "$hasRandomizeCustomers,gregfiggleunlocked",
+                    "$hasRandomizeCustomers,lucypenningtonunlocked",
+                    "$hasRandomizeCustomers,philipwentworthunlocked",
+                    "$hasRandomizeDealers,bradcrosbyrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Eugene Buckley",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 391,
+                        "y": 420,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Greg Figgle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,gregfiggleunlocked",
+                    "$hasRandomizeCustomers,eugenebuckleyunlocked",
+                    "$hasRandomizeCustomers,lucypenningtonunlocked",
+                    "$hasRandomizeCustomers,philipwentworthunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Greg Figgle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 521,
+                        "y": 151,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jeff Gilmore",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jeffgilmoreunlocked",
+                    "$hasRandomizeCustomers,brucenortonunlocked",
+                    "$hasRandomizeCustomers,gregfiggleunlocked",
+                    "$hasRandomizeCustomers,randycaulfieldunlocked",
+                    "$hasRandomizeCustomers,philipwentworthunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jeff Gilmore",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 719,
+                        "y": 100,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jenniver Rivera",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jenniferriveraunlocked",
+                    "$hasRandomizeCustomers,elizabethhomleyunlocked",
+                    "$hasRandomizeCustomers,lucypenningtonunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jennifer Rivera",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 64,
+                        "y": 369,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Kevin Oakley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,kevinoakleyunlocked",
+                    "$hasRandomizeCustomers,louisfourierunlocked",
+                    "$hasRandomizeCustomers,randycaulfieldunlocked",
+                    "$hasRandomizeSuppliers,fungalphilunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Kevin Oakley",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 260,
+                        "y": 30,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Louis Fourier",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,louisfourierunlocked",
+                    "$hasRandomizeCustomers,elizabethhomleyunlocked",
+                    "$hasRandomizeCustomers,eugenebuckleyunlocked",
+                    "$hasRandomizeCustomers,kevinoakleyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Louis Fourier",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 257,
+                        "y": 300,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Philip Wentworth",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,philipwentworthunlocked",
+                    "$hasRandomizeCustomers,eugenebuckleyunlocked",
+                    "$hasRandomizeCustomers,lucypenningtonunlocked",
+                    "$hasRandomizeCustomers,brucenortonunlocked",
+                    "$hasRandomizeCustomers,jeffgilmoreunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Philip Wentworth",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 721,
+                        "y": 485,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Randy Caulfield",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,randycaulfieldunlocked",
+                    "$hasRandomizeCustomers,jeffgilmoreunlocked",
+                    "$hasRandomizeCustomers,kevinoakleyunlocked",
+                    "$hasRandomizeDealers,bradcrosbyrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Randy Caulfield",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 390,
+                        "y": 30,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Lucy Pennington",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jenniferriveraunlocked",
+                    "$hasRandomizeCustomers,eugenebuckleyunlocked",
+                    "$hasRandomizeCustomers,lucypenningtonunlocked",
+                    "$hasRandomizeCustomers,philipwentworthunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Lucy Pennington",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 260,
+                        "y": 414,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Brad Crosby",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalDealers,$hasNormalCustomers",
+                    "$hasNormalCustomers,$hasRandomizeDealers,[bradcrosbyrecruited]",
+                    "$hasNormalDealers,$hasRandomizeCustomers,eugenebuckleyunlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,gregfiggleunlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,randycaulfieldunlocked",
+                    "$hasRandomizeCustomers,$hasRandomizeDealers,bradcrosbyrecruited",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,eugenebuckleyunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,gregfiggleunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,randycaulfieldunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Recruit Downtown Dealer Brad Crosby",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Downtown",
+                        "x": 440,
+                        "y": 179,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

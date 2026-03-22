@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Ray's Realty",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Barn",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNeedCook2,$hasNormalBusiness",
+                    "$hasNeedCook2,$hasRandomBusiness,carwash"
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Barn",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 681,
+                        "y": 296,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Bungalow",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Bungalow",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 1157,
+                        "y": 158,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Docks Warehouse",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasMixingMania,$hasNormalBusiness",
+                    "$hasMixingMania,$hasRandomBusiness,postoffice"
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Docks Warehouse",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 1065,
+                        "y": 302,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Storage Unit",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Storage Unit",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 749,
+                        "y": 150,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Car Wash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasWretchedHive,$hasNormalBusiness",
+                    "$hasWretchedHive,$hasRandomBusiness,carwash"
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Car Wash",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 124,
+                        "y": 289,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Laundromat",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Laundromat",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 124,
+                        "y": 150,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Post Office",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasMixingMania,$hasNormalBusiness",
+                    "$hasMixingMania,$hasRandomBusiness,postoffice"
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Post Office",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 512,
+                        "y": 162,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Taco Ticklers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFinishJob1,$hasNormalBusiness",
+                    "$hasFinishJob1,$hasRandomBusiness,tacoticklers"
+                ],
+                "sections": [
+                    {
+                        "name": "Realtor Purchase, Taco Ticklers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ray's Realty",
+                        "x": 512,
+                        "y": 294,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

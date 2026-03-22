@@ -1,0 +1,791 @@
+[
+    {
+        "name": "Melissa Wood Unlocked",
+        "type": "toggle",
+        "img": "images/items/melissawoodunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "melissawoodunlocked"
+    },
+    {
+        "name": "Lily Turner Unlocked",
+        "type": "toggle",
+        "img": "images/items/lilyturnerunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lilyturnerunlocked"
+    },
+    {
+        "name": "Jane Lucero Recruited",
+        "type": "toggle",
+        "img": "images/items/janelucerorecruited.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "janelucerorecruited"
+    },
+    {
+        "name": "Irene Meadows Unlocked",
+        "type": "toggle",
+        "img": "images/items/irenemeadowsunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "irenemeadowsunlocked"
+    },
+    {
+        "name": "Doris Lubbin Unlocked",
+        "type": "toggle",
+        "img": "images/items/dorislubbinunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dorislubbinunlocked"
+    },
+    {
+        "name": "Chemistry Station Unlock",
+        "type": "toggle",
+        "img": "images/items/chemistrystationunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chemistrystationunlock"
+    },
+    {
+        "name": "Beth Penn Unlocked",
+        "type": "toggle",
+        "img": "images/items/bethpennunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bethpennunlocked"
+    },
+    {
+        "name": "Warehouse Access",
+        "type": "toggle",
+        "img": "images/items/warehouseaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "warehouseaccess"
+    },
+    {
+        "name": "Billy Kramer Unlocked",
+        "type": "toggle",
+        "img": "images/items/billykramerunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "billykramerunlocked"
+    },
+    {
+        "name": "Trent Sherman Unlocked",
+        "type": "toggle",
+        "img": "images/items/trentshermanunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "trentshermanunlocked"
+    },
+    {
+        "name": "Dennis Kennedy Unlocked",
+        "type": "toggle",
+        "img": "images/items/denniskennedyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "denniskennedyunlocked"
+    },
+    {
+        "name": "Benji Coleman Recruited",
+        "type": "toggle",
+        "img": "images/items/benjicolemanrecruited.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "benjicolemanrecruited"
+    },
+    {
+        "name": "Marco Barone Unlocked",
+        "type": "toggle",
+        "img": "images/items/marcobaroneunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marcobaroneunlocked"
+    },
+    {
+        "name": "Jessi Waters Unlocked",
+        "type": "toggle",
+        "img": "images/items/jessiwatersunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jessiwatersunlocked"
+    },
+    {
+        "name": "Keith Wagner Unlocked",
+        "type": "toggle",
+        "img": "images/items/keithwagnerunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "keithwagnerunlocked"
+    },
+    {
+        "name": "Fiona Hancock Unlocked",
+        "type": "toggle",
+        "img": "images/items/fionahancockunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fionahancockunlocked"
+    },
+    {
+        "name": "Sherman Giles Unlocked",
+        "type": "toggle",
+        "img": "images/items/shermangilesunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shermangilesunlocked"
+    },
+    {
+        "name": "Jennifer Rivera Unlocked",
+        "type": "toggle",
+        "img": "images/items/jenniferriveraunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jenniferriveraunlocked"
+    },
+    {
+        "name": "Michael Boog Unlocked",
+        "type": "toggle",
+        "img": "images/items/michaelboogunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "michaelboogunlocked"
+    },
+    {
+        "name": "Herbert Bleuball Unlocked",
+        "type": "toggle",
+        "img": "images/items/herbertbleuballunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "herbertbleuballunlocked"
+    },
+    {
+        "name": "Wei Long Recruited",
+        "type": "toggle",
+        "img": "images/items/weilongrecruited.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "weilongrecruited"
+    },
+    {
+        "name": "Cartel Influence Westville",
+        "type": "consumable",
+        "img": "images/items/cartelinfluencewestville.png",
+        "initial_quantity": 0,
+        "max_quantity": 2,
+        "overlay_align": "right",
+        "codes": "cartelinfluencewestville"
+    },
+    {
+        "name": "Molly Presley Recruited",
+        "type": "toggle",
+        "img": "images/items/mollypresleyrecruited.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mollypresleyrecruited"
+    },
+    {
+        "name": "Dean Webster Unlocked",
+        "type": "toggle",
+        "img": "images/items/deanwebsterunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "deanwebsterunlocked"
+    },
+    {
+        "name": "Gasoline Unlock",
+        "type": "toggle",
+        "img": "images/items/gasolineunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gasolineunlock"
+    },
+    {
+        "name": "Chris Sullivan Unlocked",
+        "type": "toggle",
+        "img": "images/items/chrissullivanunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chrissullivanunlocked"
+    },
+    {
+        "name": "Kathy Henderson Unlocked",
+        "type": "toggle",
+        "img": "images/items/kathyhendersonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kathyhendersonunlocked"
+    },
+    {
+        "name": "Kelly Reynolds Unlocked",
+        "type": "toggle",
+        "img": "images/items/kellyreynoldsunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kellyreynoldsunlocked"
+    },
+    {
+        "name": "Louis Fourier Unlocked",
+        "type": "toggle",
+        "img": "images/items/louisfourierunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "louisfourierunlocked"
+    },
+    {
+        "name": "Kevin Oakley Unlocked",
+        "type": "toggle",
+        "img": "images/items/kevinoakleyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kevinoakleyunlocked"
+    },
+    {
+        "name": "Elizabeth Homley Unlocked",
+        "type": "toggle",
+        "img": "images/items/elizabethhomleyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "elizabethhomleyunlocked"
+    },
+    {
+        "name": "Philip Wentworth Unlocked",
+        "type": "toggle",
+        "img": "images/items/philipwentworthunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "philipwentworthunlocked"
+    },
+    {
+        "name": "Kyle Cooley Unlocked",
+        "type": "toggle",
+        "img": "images/items/kylecooleyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kylecooleyunlocked"
+    },
+    {
+        "name": "Sewer Key",
+        "type": "toggle",
+        "img": "images/items/sewerkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sewerkey"
+    },
+    {
+        "name": "Phosphorus Unlock",
+        "type": "toggle",
+        "img": "images/items/phosphorusunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "phosphorusunlock"
+    },
+    {
+        "name": "Mrs. Ming Unlocked",
+        "type": "toggle",
+        "img": "images/items/mrsmingunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mrsmingunlocked"
+    },
+    {
+        "name": "Mixing Station Unlock",
+        "type": "toggle",
+        "img": "images/items/mixingstationunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mixingstationunlock"
+    },
+    {
+        "name": "Post Office",
+        "type": "toggle",
+        "img": "images/items/postoffice.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "postoffice"
+    },
+    {
+        "name": "Cartel Influence Downtown",
+        "type": "consumable",
+        "img": "images/items/cartelinfluencedowntown.png",
+        "initial_quantity": 0,
+        "max_quantity": 7,
+        "overlay_align": "right",
+        "codes": "cartelinfluencedowntown"
+    },
+    {
+        "name": "Fertilizer Unlock",
+        "type": "toggle",
+        "img": "images/items/fertilizerunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fertilizerunlock"
+    },
+    {
+        "name": "Mick Lubbin Unlocked",
+        "type": "toggle",
+        "img": "images/items/micklubbinunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "micklubbinunlocked"
+    },
+    {
+        "name": "Jackie Stevenson Unlocked",
+        "type": "toggle",
+        "img": "images/items/jackiestevensonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jackiestevensonunlocked"
+    },
+    {
+        "name": "Cranky Frank Unlocked",
+        "type": "toggle",
+        "img": "images/items/crankyfrankunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crankyfrankunlocked"
+    },
+    {
+        "name": "Drying Rack Unlock",
+        "type": "toggle",
+        "img": "images/items/dryingrackunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dryingrackunlock"
+    },
+    {
+        "name": "Joyce Ball Unlocked",
+        "type": "toggle",
+        "img": "images/items/joyceballunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "joyceballunlocked"
+    },
+    {
+        "name": "Cartel Influence Docks",
+        "type": "consumable",
+        "img": "images/items/cartelinfluencedocks.png",
+        "initial_quantity": 0,
+        "max_quantity": 7,
+        "overlay_align": "right",
+        "codes": "cartelinfluencedocks"
+    },
+    {
+        "name": "Carl Bundy Unlocked",
+        "type": "toggle",
+        "img": "images/items/carlbundyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "carlbundyunlocked"
+    },
+    {
+        "name": "Meg Cooley Unlocked",
+        "type": "toggle",
+        "img": "images/items/megcooleyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "megcooleyunlocked"
+    },
+    {
+        "name": "Chloe Bowers Unlocked",
+        "type": "toggle",
+        "img": "images/items/chloebowersunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chloebowersunlocked"
+    },
+    {
+        "name": "Jeff Gilmore Unlocked",
+        "type": "toggle",
+        "img": "images/items/jeffgilmoreunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jeffgilmoreunlocked"
+    },
+    {
+        "name": "Mac Cooper Unlocked",
+        "type": "toggle",
+        "img": "images/items/maccooperunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "maccooperunlocked"
+    },
+    {
+        "name": "Jen Heard Unlocked",
+        "type": "toggle",
+        "img": "images/items/jenheardunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jenheardunlocked"
+    },
+    {
+        "name": "Jack Knight Unlocked",
+        "type": "toggle",
+        "img": "images/items/jackknightunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jackknightunlocked"
+    },
+    {
+        "name": "Mixing Station MK2 Unlock",
+        "type": "toggle",
+        "img": "images/items/mixingstationmk2unlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mixingstationmk2unlock"
+    },
+    {
+        "name": "Eugene Buckley Unlocked",
+        "type": "toggle",
+        "img": "images/items/eugenebuckleyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "eugenebuckleyunlocked"
+    },
+    {
+        "name": "Shirley Watts Unlocked",
+        "type": "toggle",
+        "img": "images/items/shirleywattsunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shirleywattsunlocked"
+    },
+    {
+        "name": "Cartel Influence Suburbia",
+        "type": "consumable",
+        "img": "images/items/cartelinfluencesuburbia.png",
+        "initial_quantity": 0,
+        "max_quantity": 7,
+        "overlay_align": "right",
+        "codes": "cartelinfluencesuburbia"
+    },
+    {
+        "name": "Genghis Barn Unlocked",
+        "type": "toggle",
+        "img": "images/items/genghisbarnunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "genghisbarnunlocked"
+    },
+    {
+        "name": "Charles Rowland Unlocked",
+        "type": "toggle",
+        "img": "images/items/charlesrowlandunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "charlesrowlandunlocked"
+    },
+    {
+        "name": "Jeremy Wilkinson Unlocked",
+        "type": "toggle",
+        "img": "images/items/jeremywilkinsonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jeremywilkinsonunlocked"
+    },
+    {
+        "name": "Hank Stevenson Unlocked",
+        "type": "toggle",
+        "img": "images/items/hankstevensonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hankstevensonunlocked"
+    },
+    {
+        "name": "Pearl Moore Unlocked",
+        "type": "toggle",
+        "img": "images/items/pearlmooreunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pearlmooreunlocked"
+    },
+    {
+        "name": "Randy Caulfield Unlocked",
+        "type": "toggle",
+        "img": "images/items/randycaulfieldunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "randycaulfieldunlocked"
+    },
+    {
+        "name": "Ludwig Meyer Unlocked",
+        "type": "toggle",
+        "img": "images/items/ludwigmeyerunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ludwigmeyerunlocked"
+    },
+    {
+        "name": "Austin Steiner Unlocked",
+        "type": "toggle",
+        "img": "images/items/austinsteinerunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "austinsteinerunlocked"
+    },
+    {
+        "name": "Ray Hoffman Unlocked",
+        "type": "toggle",
+        "img": "images/items/rayhoffmanunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rayhoffmanunlocked"
+    },
+    {
+        "name": "Car Wash",
+        "type": "toggle",
+        "img": "images/items/carwash.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "carwash"
+    },
+    {
+        "name": "Javier Perez Unlocked",
+        "type": "toggle",
+        "img": "images/items/javierperezunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "javierperezunlocked"
+    },
+    {
+        "name": "Harold Colt Unlocked",
+        "type": "toggle",
+        "img": "images/items/haroldcoltunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "haroldcoltunlocked"
+    },
+    {
+        "name": "Salvador Moreno Unlocked",
+        "type": "toggle",
+        "img": "images/items/salvadormorenounlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "salvadormorenounlocked"
+    },
+    {
+        "name": "Laundromat",
+        "type": "toggle",
+        "img": "images/items/laundromat.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "laundromat"
+    },
+    {
+        "name": "Cartel Influence Uptown",
+        "type": "consumable",
+        "img": "images/items/cartelinfluenceuptown.png",
+        "initial_quantity": 0,
+        "max_quantity": 7,
+        "overlay_align": "right",
+        "codes": "cartelinfluenceuptown"
+    },
+    {
+        "name": "Fungal Phil Unlocked",
+        "type": "toggle",
+        "img": "images/items/fungalphilunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fungalphilunlocked"
+    },
+    {
+        "name": "Cauldron Unlock",
+        "type": "toggle",
+        "img": "images/items/cauldronunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cauldronunlock"
+    },
+    {
+        "name": "Anna Chesterfield Unlocked",
+        "type": "toggle",
+        "img": "images/items/annachesterfieldunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "annachesterfieldunlocked"
+    },
+    {
+        "name": "Walter Cussler Unlocked",
+        "type": "toggle",
+        "img": "images/items/waltercusslerunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "waltercusslerunlocked"
+    },
+    {
+        "name": "Leo Rivers Recruited",
+        "type": "toggle",
+        "img": "images/items/leoriversrecruited.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "leoriversrecruited"
+    },
+    {
+        "name": "Alison Knight Unlocked",
+        "type": "toggle",
+        "img": "images/items/alisonknightunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "alisonknightunlocked"
+    },
+    {
+        "name": "Kim Delaney Unlocked",
+        "type": "toggle",
+        "img": "images/items/kimdelaneyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kimdelaneyunlocked"
+    },
+    {
+        "name": "Bruce Norton Unlocked",
+        "type": "toggle",
+        "img": "images/items/brucenortonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "brucenortonunlocked"
+    },
+    {
+        "name": "Peter File Unlocked",
+        "type": "toggle",
+        "img": "images/items/peterfileunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "peterfileunlocked"
+    },
+    {
+        "name": "George Greene Unlocked",
+        "type": "toggle",
+        "img": "images/items/georgegreeneunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "georgegreeneunlocked"
+    },
+    {
+        "name": "Jerry Montero Unlocked",
+        "type": "toggle",
+        "img": "images/items/jerrymonterounlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jerrymonterounlocked"
+    },
+    {
+        "name": "Peggy Myers Unlocked",
+        "type": "toggle",
+        "img": "images/items/peggymyersunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "peggymyersunlocked"
+    },
+    {
+        "name": "Lab Oven Unlock",
+        "type": "toggle",
+        "img": "images/items/labovenunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "labovenunlock"
+    },
+    {
+        "name": "Donna Martin Unlocked",
+        "type": "toggle",
+        "img": "images/items/donnamartinunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "donnamartinunlocked"
+    },
+    {
+        "name": "Tobias Wentworth Unlocked",
+        "type": "toggle",
+        "img": "images/items/tobiaswentworthunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tobiaswentworthunlocked"
+    },
+    {
+        "name": "Acid Unlock",
+        "type": "toggle",
+        "img": "images/items/acidunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "acidunlock"
+    },
+    {
+        "name": "Lucy Pennington Unlocked",
+        "type": "toggle",
+        "img": "images/items/lucypenningtonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lucypenningtonunlocked"
+    },
+    {
+        "name": "Geraldine Poon Unlocked",
+        "type": "toggle",
+        "img": "images/items/geraldinepoonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "geraldinepoonunlocked"
+    },
+    {
+        "name": "Sam Thompson Unlocked",
+        "type": "toggle",
+        "img": "images/items/samthompsonunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "samthompsonunlocked"
+    },
+    {
+        "name": "Lisa Gardener Unlocked",
+        "type": "toggle",
+        "img": "images/items/lisagardenerunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lisagardenerunlocked"
+    },
+    {
+        "name": "Greg Figgle Unlocked",
+        "type": "toggle",
+        "img": "images/items/gregfiggleunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gregfiggleunlocked"
+    },
+    {
+        "name": "Brad Crosby Recruited",
+        "type": "toggle",
+        "img": "images/items/bradcrosbyrecruited.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bradcrosbyrecruited"
+    },
+    {
+        "name": "Taco Ticklers",
+        "type": "toggle",
+        "img": "images/items/tacoticklers.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tacoticklers"
+    },
+    {
+        "name": "Karen Kennedy Unlocked",
+        "type": "toggle",
+        "img": "images/items/karenkennedyunlocked.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "karenkennedyunlocked"
+    },
+    {
+        "name": "Westville Region Unlock",
+        "type": "toggle",
+        "img": "images/items/westvilleregionunlock.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "westvilleregionunlock"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

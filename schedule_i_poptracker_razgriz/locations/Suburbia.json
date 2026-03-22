@@ -1,0 +1,394 @@
+[
+    {
+        "name": "Suburbia",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "$canReachSuburbia"
+        ],
+        "children": [
+            {
+                "name": "Cartel Influence",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasUnfavourableAgreement"
+                ],
+                "sections": [
+                    {
+                        "name": "Suburbia cartel influence 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suburbia cartel influence 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suburbia cartel influence 3",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suburbia cartel influence 4",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suburbia cartel influence 5",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suburbia cartel influence 6",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Suburbia cartel influence 7",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 98,
+                        "y": 180,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Alison Knight",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,alisonknightunlocked",
+                    "$hasRandomizeCustomers,carlbundyunlocked",
+                    "$hasRandomizeCustomers,jeremywilkinsonunlocked",
+                    "$hasRandomizeCustomers,chrissullivanunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Alison Knight",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 261,
+                        "y": 431,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Carl Bundy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,alisonknightunlocked",
+                    "$hasRandomizeCustomers,carlbundyunlocked",
+                    "$hasRandomizeCustomers,haroldcoltunlocked",
+                    "$hasRandomizeCustomers,jackknightunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Carl Bundy",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 387,
+                        "y": 429,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Chris Sullivan",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,alisonknightunlocked",
+                    "$hasRandomizeCustomers,karenkennedyunlocked",
+                    "$hasRandomizeCustomers,chrissullivanunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Chris Sullivan",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 65,
+                        "y": 303,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Dennis Kennedy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,denniskennedyunlocked",
+                    "$hasRandomizeCustomers,haroldcoltunlocked",
+                    "$hasRandomizeCustomers,jackiestevensonunlocked",
+                    "$hasRandomizeCustomers,jackknightunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Dennis Kennedy",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 642,
+                        "y": 298,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Hank Stevenson",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,hankstevensonunlocked",
+                    "$hasRandomizeCustomers,jackiestevensonunlocked",
+                    "$hasRandomizeCustomers,karenkennedyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Hank Stevenson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 261,
+                        "y": 38,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Harold Colt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,haroldcoltunlocked",
+                    "$hasRandomizeCustomers,carlbundyunlocked",
+                    "$hasRandomizeCustomers,denniskennedyunlocked",
+                    "$hasRandomizeDealers,weilongrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Harold Colt",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 467,
+                        "y": 322,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jack Knight",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jackknightunlocked",
+                    "$hasRandomizeCustomers,carlbundyunlocked",
+                    "$hasRandomizeCustomers,denniskennedyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jack Knight",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 585,
+                        "y": 488,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jackie Stevenson",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jackiestevensonunlocked",
+                    "$hasRandomizeCustomers,denniskennedyunlocked",
+                    "$hasRandomizeCustomers,hankstevensonunlocked",
+                    "$hasRandomizeDealers,weilongrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jackie Stevenson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 514,
+                        "y": 42,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jeremy Wilkinson",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jeremywilkinsonunlocked",
+                    "$hasRandomizeCustomers,alisonknightunlocked",
+                    "$hasRandomizeCustomers,karenkennedyunlocked",
+                    "$hasRandomizeDealers,weilongrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jeremy Wilkinson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 386,
+                        "y": 176,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Karen Kennedy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,karenkennedyunlocked",
+                    "$hasRandomizeCustomers,hankstevensonunlocked",
+                    "$hasRandomizeCustomers,jeremywilkinsonunlocked",
+                    "$hasRandomizeCustomers,chrissullivanunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Karen Kennedy",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 205,
+                        "y": 191,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Wei Long",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalDealers,$hasNormalCustomers",
+                    "$hasNormalCustomers,$hasRandomizeDealers,[weilongrecruited]",
+                    "$hasNormalDealers,$hasRandomizeCustomers,jeremywilkinsonunlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,haroldcoltunlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,jackstevensonunlocked",
+                    "$hasRandomizeCustomers,$hasRandomizeDealers,weilongrecruited",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,jeremywilkinsonunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,haroldcoltunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,jackstevensonunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Recruit Suburbia Dealer Wei Long",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Suburbia",
+                        "x": 464,
+                        "y": 191,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

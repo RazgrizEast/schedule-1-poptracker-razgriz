@@ -1,0 +1,219 @@
+{
+    "dealers_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["mollypresleyrecruited"],
+                ["bradcrosbyrecruited"],
+                ["janelucerorecruited"],
+                ["weilongrecruited"],
+                ["leoriversrecruited"]
+        ]
+      }
+    ]
+  },
+      "suppliers_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 64,
+            "rows": [
+                ["shirleywattsunlocked"],
+                ["salvadormorenounlocked"],
+                ["fungalphilunlocked"]
+        ]
+      }
+    ]
+      },
+      "northtown_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["austinsteinerunlocked", "bethpennunlocked", "chloebowersunlocked"],
+                ["donnamartinunlocked", "geraldinepoonunlocked", "jessiwatersunlocked"],
+                ["kathyhendersonunlocked", "kylecooleyunlocked"],
+                ["ludwigmeyerunlocked", "micklubbinunlocked"],
+                ["mrsmingunlocked", "peggymyersunlocked"],
+                ["peterfileunlocked", "samthompsonunlocked"]
+        ]
+      }
+    ]
+          },
+      "westville_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["charlesrowlandunlocked", "deanwebsterunlocked"],
+                ["dorislubbinunlocked", "georgegreeneunlocked"],
+                ["jerrymonterounlocked", "joyceballunlocked"],
+                ["keithwagnerunlocked", "kimdelaneyunlocked"],
+                ["megcooleyunlocked", "trentshermanunlocked"]
+        ]
+      }
+    ]
+          },
+      "downtown_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["brucenortonunlocked", "elizabethhomleyunlocked"],
+                ["gregfiggleunlocked", "jeffgilmoreunlocked"],
+                ["jenniferriveraunlocked", "kevinoakleyunlocked"],
+                ["louisfourierunlocked", "philipwentworthunlocked"],
+                ["randycaulfieldunlocked", "lucypenningtonunlocked"],
+                ["eugenebuckleyunlocked"]
+        ]
+      }
+    ]
+          },
+      "docks_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["annachesterfieldunlocked", "billykramerunlocked"],
+                ["genghisbarnunlocked", "javierperezunlocked"],
+                ["kellyreynoldsunlocked", "lisagardenerunlocked"],
+                ["maccooperunlocked", "marcobaroneunlocked"],
+                ["melissawoodunlocked", "shermangilesunlocked"],
+                ["crankyfrankunlocked"]
+        ]
+      }
+    ]
+          },
+      "suburbia_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["alisonknightunlocked", "carlbundyunlocked"],
+                ["chrissullivanunlocked", "denniskennedyunlocked"],
+                ["hankstevensonunlocked", "haroldcoltunlocked"],
+                ["jackknightunlocked", "jackiestevensonunlocked"],
+                ["jeremywilkinsonunlocked", "karenkennedyunlocked"]
+        ]
+      }
+    ]
+          },
+      "uptown_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["fionahancockunlocked", "herbertbleuballunlocked"],
+                ["irenemeadowsunlocked", "jenheardunlocked"],
+                ["lilyturnerunlocked", "michaelboogunlocked"],
+                ["pearlmooreunlocked", "rayhoffmanunlocked"],
+                ["tobiaswentworthunlocked", "waltercusslerunlocked"]
+        ]
+      }
+    ]
+          },
+      "cartel_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 64,
+            "rows": [
+                ["westvilleregionunlock", "cartelinfluencewestville"],
+                ["cartelinfluencedowntown", "cartelinfluencedocks"],
+                ["cartelinfluencesuburbia", "cartelinfluenceuptown"]
+        ]
+      }
+    ]
+              },
+      "places_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 64,
+            "rows": [
+                ["warehouseaccess", "sewerkey"],
+                ["laundromat", "postoffice"],
+                ["carwash", "tacoticklers"]
+        ]
+      }
+    ]
+              },
+      "items_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["mixingstationunlock", "mixingstationmk2unlock"],
+                ["chemistrystationunlock", "labovenunlock"],
+                ["cauldronunlock", "dryingrackunlock"],
+                ["fertilizerunlock", "gasolineunlock"],
+                ["acidunlock", "phosphorusunlock"]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+[
+    {
+        "name": "Westville",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "$canReachWestville"
+        ],
+        "children": [
+            {
+                "name": "Cartel Influence",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasUnfavourableAgreement"
+                ],
+                "sections": [
+                    {
+                        "name": "Westville cartel influence 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Westville cartel influence 2",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 299,
+                        "y": 87,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Charles Rowland",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,kimdelaneyunlocked",
+                    "$hasRandomizeCustomers,charlesrowlandunlocked",
+                    "$hasRandomizeDealers,mollypresleyrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Charles Rowland",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 599,
+                        "y": 439,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Dean Webster",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jerrymonterounlocked",
+                    "$hasRandomizeCustomers,georgegreeneunlocked",
+                    "$hasRandomizeCustomers,deanwebsterunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Dean Webster",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 598,
+                        "y": 69,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Doris Lubbin",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,dorislubbinlocked",
+                    "$hasRandomizeCustomers,joyceballunlocked",
+                    "$hasRandomizeCustomers,kimdelaneyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Doris Lubbin",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 357,
+                        "y": 439,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "George Greene",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,georgegreeneunlocked",
+                    "$hasRandomizeCustomers,deanwebsterunlocked",
+                    "$hasRandomizeDealers,mollypresleyrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample George Greene",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 723,
+                        "y": 190,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jerry Montero",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jerrymonterounlocked",
+                    "$hasRandomizeCustomers,deanwebsterunlocked",
+                    "$hasRandomizeCustomers,keithwagnerunlocked",
+                    "$hasRandomizeCustomers,kimdelaneyunlocked",
+                    "$hasRandomizeDealers,mollypresleyrecruited",
+                    "$hasRandomizeSuppliers,shirleywattsunlocked" 
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Jerry Montero",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 371,
+                        "y": 212,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Joyce Ball",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,joyceballunlocked",
+                    "$hasRandomizeCustomers,dorislubbinlocked",
+                    "$hasRandomizeCustomers,trentshermanunlocked",
+                    "$hasRandomizeCustomers,keithwagnerunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Joyce Ball",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 169,
+                        "y": 439,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Keith Wagner",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,keithwagnerunlocked",
+                    "$hasRandomizeCustomers,jerrymonterounlocked",
+                    "$hasRandomizeCustomers,joyceballunlocked",
+                    "$hasRandomizeCustomers,megcooleyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Keith Wagner",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 294,
+                        "y": 194,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Kim Delaney",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,kimdelaneyunlocked",
+                    "$hasRandomizeCustomers,charlesrowlandunlocked",
+                    "$hasRandomizeCustomers,dorislubbinlocked",
+                    "$hasRandomizeCustomers,jerrymonterounlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Kim Delaney",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 476,
+                        "y": 439,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Meg Cooley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,megcooleyunlocked",
+                    "$hasRandomizeCustomers,keithwagnerunlocked",
+                    "$hasRandomizeCustomers,trentshermanunlocked",
+                    "$hasRandomizeSuppliers,shirleywattsunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Meg Cooley",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 111,
+                        "y": 132,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Shirley Watts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,jerrymonterounlocked",
+                    "$hasRandomizeCustomers,megcooleyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Befriend Supplier Shirley Watts",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasNormalSuppliers"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 417,
+                        "y": 69,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Trent Sherman",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalCustomers",
+                    "$hasRandomizeCustomers,trentshermanunlocked",
+                    "$hasRandomizeCustomers,joyceballunlocked",
+                    "$hasRandomizeCustomers,megcooleyunlocked"
+                ],
+                "sections": [
+                    {
+                        "name": "Successful Sample Trent Sherman",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 49,
+                        "y": 188,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Molly Presley",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNormalDealers,$hasNormalCustomers",
+                    "$hasNormalCustomers,$hasRandomizeDealers,[mollypresleyrecruited]",
+                    "$hasNormalDealers,$hasRandomizeCustomers,jerrymonterounlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,charlesrowlandunlocked",
+                    "$hasNormalDealers,$hasRandomizeCustomers,georgegreeneunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,jerrymonterounlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,charlesrowlandunlocked",
+                    "$hasRandomizeDealers,$hasRandomizeCustomers,georgegreeneunlocked",
+                    "$hasRandomizeCustomers,$hasRandomizeDealers,mollypresleyrecruited"
+                ],
+                "sections": [
+                    {
+                        "name": "Recruit Westville Dealer Molly Presley",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Westville",
+                        "x": 555,
+                        "y": 216,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]
