@@ -1197,35 +1197,35 @@
                     },
                     {
                         "name": "Cleaner - Use the management clipboard to assign the cleaner to a locker",
-                        "ref": "@Quests/Cleaner/Use the management clipboard to assign the cleaner to a locker"
+                        "ref": "Quests/Cleaner/Use the management clipboard to assign the cleaner to a locker"
                     },
                     {
                         "name": "Cleaner - Assign a trash can to the cleaner",
-                        "ref": "@Quests/Cleaner/Assign a trash can to the cleaner"
+                        "ref": "Quests/Cleaner/Assign a trash can to the cleaner"
                     },
                     {
                         "name": "Cleaner - Place cash in the cleaner's locker",
-                        "ref": "@Quests/Cleaner/Place cash in the cleaner's locker"
+                        "ref": "Quests/Cleaner/Place cash in the cleaner's locker"
                     },
                     {
                         "name": "Botanist - Use the management clipboard to assign the botanist to a locker",
-                        "ref": "@Quests/Botanists/Use the management clipboard to assign the botanist to a locker"
+                        "ref": "Quests/Botanists/Use the management clipboard to assign the botanist to a locker"
                     },
                     {
                         "name": "Botanist - Assign a supplies source to the botanist",
-                        "ref": "@Quests/Botanists/Assign a supplies source to the botanist"
+                        "ref": "Quests/Botanists/Assign a supplies source to the botanist"
                     },
                     {
                         "name": "Botanist - Assign a pot or grow tent to the botanist",
-                        "ref": "@Quests/Botanists/Assign a pot or grow tent to the botanist"
+                        "ref": "Quests/Botanists/Assign a pot or grow tent to the botanist"
                     },
                     {
                         "name": "Botanists - Set the pot grow tent destination",
-                        "ref": "@Quests/Botanists/Set the pot grow tent destination"
+                        "ref": "Quests/Botanists/Set the pot grow tent destination"
                     },
                     {
                         "name": "Botanists - Place cash in the botanist's locker",
-                        "ref": "@Quests/Botanists/Place cash in the botanist's locker"
+                        "ref": "Quests/Botanists/Place cash in the botanist's locker"
                     },
                     {
                         "name": "Handlers - Use the management clipboard to assign the handler to a locker",
@@ -1273,7 +1273,7 @@
                     },
                     {
                         "name": "Finishing the Job - Get Sam to dig access to the tunnel under Hyland Manor",
-                        "ref": "@Quests/Finishing the Job/Get Sam to dig access to the tunnel under Hyland Manor"
+                        "ref": "Quests/Finishing the Job/Get Sam to dig access to the tunnel under Hyland Manor"
                     },
                     {
                         "name": "Finishing the Job - Wait for Sam to dig access to the tunnel",
@@ -1293,7 +1293,7 @@
                     },
                     {
                         "name": "Finishing the Job - Plant the bomb under Hyland Manor",
-                        "ref": "@Quests/Finishing the Job/Plant the bomb under Hyland Manor"
+                        "ref": "Quests/Finishing the Job/Plant the bomb under Hyland Manor"
                     },
                     {
                         "name": "Finishing the Job - Wait for the bomb to detonate",
