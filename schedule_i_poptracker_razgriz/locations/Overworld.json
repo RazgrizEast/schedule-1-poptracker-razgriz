@@ -9,7 +9,7 @@
         ],
         "children": [
             {
-                "name": "Docks",
+                "name": "Docks Samples",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -17,34 +17,6 @@
                     " "
                 ],
                 "sections": [
-                    {
-                        "name": "Cartel Influence - Docks cartel influence 1",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 1"
-                    },
-                    {
-                        "name": "Cartel Influence - Docks cartel influence 2",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 2"
-                    },
-                    {
-                        "name": "Cartel Influence - Docks cartel influence 3",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 3"
-                    },
-                    {
-                        "name": "Cartel Influence - Docks cartel influence 4",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 4"
-                    },
-                    {
-                        "name": "Cartel Influence - Docks cartel influence 5",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 5"
-                    },
-                    {
-                        "name": "Cartel Influence - Docks cartel influence 6",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 6"
-                    },
-                    {
-                        "name": "Cartel Influence - Docks cartel influence 7",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 7"
-                    },
                     {
                         "name": "Anna Chesterfield - Successful Sample Anna Chesterfield",
                         "ref": "Docks/Anna Chesterfield/Successful Sample Anna Chesterfield"
@@ -101,14 +73,14 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 438,
+                        "x": 410,
                         "y": 665,
                         "size": 24
                     }
                 ]
             },
             {
-                "name": "Downtown",
+                "name": "Docks Cartel",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -117,33 +89,52 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cartel Influence - Downtown cartel influence 1",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 1"
+                        "name": "Cartel Influence - Docks cartel influence 1",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 1"
                     },
                     {
-                        "name": "Cartel Influence - Downtown cartel influence 2",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 2"
+                        "name": "Cartel Influence - Docks cartel influence 2",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 2"
                     },
                     {
-                        "name": "Cartel Influence - Downtown cartel influence 3",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 3"
+                        "name": "Cartel Influence - Docks cartel influence 3",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 3"
                     },
                     {
-                        "name": "Cartel Influence - Downtown cartel influence 4",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 4"
+                        "name": "Cartel Influence - Docks cartel influence 4",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 4"
                     },
                     {
-                        "name": "Cartel Influence - Downtown cartel influence 5",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 5"
+                        "name": "Cartel Influence - Docks cartel influence 5",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 5"
                     },
                     {
-                        "name": "Cartel Influence - Downtown cartel influence 6",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 6"
+                        "name": "Cartel Influence - Docks cartel influence 6",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 6"
                     },
                     {
-                        "name": "Cartel Influence - Downtown cartel influence 7",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 7"
-                    },
+                        "name": "Cartel Influence - Docks cartel influence 7",
+                        "ref": "Docks/Cartel Influence/Docks cartel influence 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 460,
+                        "y": 665,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Downtown Samples",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
                     {
                         "name": "Fungal Phil - Befriend Supplier Fungal Phil",
                         "ref": "Downtown/Fungal Phil/Befriend Supplier Fungal Phil"
@@ -200,7 +191,54 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 651,
+                        "x": 620,
+                        "y": 478,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Downtown Cartel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 1",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 1"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 2",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 2"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 3",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 3"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 4",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 4"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 5",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 5"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 6",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 6"
+                    },
+                    {
+                        "name": "Cartel Influence - Downtown cartel influence 7",
+                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 670,
                         "y": 478,
                         "size": 24
                     }
@@ -1422,7 +1460,7 @@
                 ]
             },
             {
-                "name": "Suburbia",
+                "name": "Suburbia Samples",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1430,34 +1468,6 @@
                     " "
                 ],
                 "sections": [
-                    {
-                        "name": "Cartel Influence - Suburbia cartel influence 1",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 1"
-                    },
-                    {
-                        "name": "Cartel Influence - Suburbia cartel influence 2",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 2"
-                    },
-                    {
-                        "name": "Cartel Influence - Suburbia cartel influence 3",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 3"
-                    },
-                    {
-                        "name": "Cartel Influence - Suburbia cartel influence 4",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 4"
-                    },
-                    {
-                        "name": "Cartel Influence - Suburbia cartel influence 5",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 5"
-                    },
-                    {
-                        "name": "Cartel Influence - Suburbia cartel influence 6",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 6"
-                    },
-                    {
-                        "name": "Cartel Influence - Suburbia cartel influence 7",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 7"
-                    },
                     {
                         "name": "Alison Knight - Successful Sample Alison Knight",
                         "ref": "Suburbia/Alison Knight/Successful Sample Alison Knight"
@@ -1506,14 +1516,14 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 894,
+                        "x": 870,
                         "y": 805,
                         "size": 24
                     }
                 ]
             },
             {
-                "name": "Uptown",
+                "name": "Suburbia Cartel",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1522,33 +1532,52 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cartel Influence - Uptown cartel influence 1",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 1"
+                        "name": "Cartel Influence - Suburbia cartel influence 1",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 1"
                     },
                     {
-                        "name": "Cartel Influence - Uptown cartel influence 2",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 2"
+                        "name": "Cartel Influence - Suburbia cartel influence 2",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 2"
                     },
                     {
-                        "name": "Cartel Influence - Uptown cartel influence 3",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 3"
+                        "name": "Cartel Influence - Suburbia cartel influence 3",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 3"
                     },
                     {
-                        "name": "Cartel Influence - Uptown cartel influence 4",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 4"
+                        "name": "Cartel Influence - Suburbia cartel influence 4",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 4"
                     },
                     {
-                        "name": "Cartel Influence - Uptown cartel influence 5",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 5"
+                        "name": "Cartel Influence - Suburbia cartel influence 5",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 5"
                     },
                     {
-                        "name": "Cartel Influence - Uptown cartel influence 6",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 6"
+                        "name": "Cartel Influence - Suburbia cartel influence 6",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 6"
                     },
                     {
-                        "name": "Cartel Influence - Uptown cartel influence 7",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 7"
-                    },
+                        "name": "Cartel Influence - Suburbia cartel influence 7",
+                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 920,
+                        "y": 805,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Uptown Samples",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
                     {
                         "name": "Fiona Hancock - Successful Sample Fiona Hancock",
                         "ref": "Uptown/Fiona Hancock/Successful Sample Fiona Hancock"
@@ -1597,14 +1626,14 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 908,
+                        "x": 885,
                         "y": 474,
                         "size": 24
                     }
                 ]
             },
             {
-                "name": "Westville",
+                "name": "Uptown Cartel",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1613,13 +1642,52 @@
                 ],
                 "sections": [
                     {
-                        "name": "Cartel Influence - Westville cartel influence 1",
-                        "ref": "Westville/Cartel Influence/Westville cartel influence 1"
+                        "name": "Cartel Influence - Uptown cartel influence 1",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 1"
                     },
                     {
-                        "name": "Cartel Influence - Westville cartel influence 2",
-                        "ref": "Westville/Cartel Influence/Westville cartel influence 2"
+                        "name": "Cartel Influence - Uptown cartel influence 2",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 2"
                     },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 3",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 3"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 4",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 4"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 5",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 5"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 6",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 6"
+                    },
+                    {
+                        "name": "Cartel Influence - Uptown cartel influence 7",
+                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 7"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 935,
+                        "y": 474,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Westville Samples",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
                     {
                         "name": "Charles Rowland - Successful Sample Charles Rowland",
                         "ref": "Westville/Charles Rowland/Successful Sample Charles Rowland"
@@ -1672,7 +1740,34 @@
                 "map_locations": [
                     {
                         "map": "Overworld",
-                        "x": 165,
+                        "x": 150,
+                        "y": 258,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Westville Cartel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cartel Influence - Westville cartel influence 1",
+                        "ref": "Westville/Cartel Influence/Westville cartel influence 1"
+                    },
+                    {
+                        "name": "Cartel Influence - Westville cartel influence 2",
+                        "ref": "Westville/Cartel Influence/Westville cartel influence 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 200,
                         "y": 258,
                         "size": 24
                     }
