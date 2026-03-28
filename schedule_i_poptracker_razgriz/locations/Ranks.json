@@ -196,6 +196,12 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Rank Bagman III",
+                        "access_rules": ["$hasNeedCook1"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Rank Bagman V",
                         "access_rules": ["$hasNeedCook2"],
                         "visibility_rules": [],
@@ -237,6 +243,31 @@
                 ]
             },
             {
+                "name": "Shot Caller",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasUnfavourableAgreement"
+                ],
+                "sections": [
+                    {
+                        "name": "Rank Shot Caller I",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ranks",
+                        "x": 568,
+                        "y": 366,
+                        "size": 24
+                    }
+                ]
+            },
+            {
                 "name": "Block Boss",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -256,7 +287,7 @@
                     {
                         "map": "Ranks",
                         "x": 568,
-                        "y": 366,
+                        "y": 466,
                         "size": 24
                     }
                 ]

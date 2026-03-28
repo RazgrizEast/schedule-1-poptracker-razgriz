@@ -1387,12 +1387,20 @@
                         "ref": "Ranks/Bagman/Rank Bagman I"
                     },
                     {
+                        "name": "Bagman - Rank Bagman III",
+                        "ref": "Ranks/Bagman/Rank Bagman III"
+                    },
+                    {
                         "name": "Bagman - Rank Bagman V",
                         "ref": "Ranks/Bagman/Rank Bagman V"
                     },
                     {
                         "name": "Enforcer - Rank Enforcer I",
                         "ref": "Ranks/Enforcer/Rank Enforcer I"
+                    },
+                    {
+                        "name": "Shot Caller - Rank Shot Caller I",
+                        "ref": "Ranks/Shot Caller/Rank Shot Caller I"
                     },
                     {
                         "name": "Block Boss - Rank Block Boss I",
