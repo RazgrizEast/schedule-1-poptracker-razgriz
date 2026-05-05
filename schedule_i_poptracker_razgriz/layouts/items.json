@@ -207,11 +207,12 @@
             "item_margin": "2,2",
             "item_size": 32,
             "rows": [
-                ["mixingstationunlock", "mixingstationmk2unlock"],
-                ["chemistrystationunlock", "labovenunlock"],
-                ["cauldronunlock", "dryingrackunlock"],
-                ["fertilizerunlock", "gasolineunlock"],
-                ["acidunlock", "phosphorusunlock"]
+                ["mixingstationunlock"],
+                ["mixingstationmk2unlock"],
+                ["cauldronunlock"],
+                ["gasolineunlock"],
+                ["fertilizerunlock"],
+                ["dryingrackunlock"]
         ]
       }
     ]

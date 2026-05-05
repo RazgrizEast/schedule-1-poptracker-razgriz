@@ -3,8 +3,6 @@ ITEM_MAPPING = {
 	[5] = {{"fertilizerunlock", "toggle"}},
 	[11] = {{"mixingstationunlock", "toggle"}},
 	[26] = {{"mixingstationmk2unlock", "toggle"}},
-	[24] = {{"chemistrystationunlock", "toggle"}},
-	[25] = {{"labovenunlock", "toggle"}},
 	[36] = {{"dryingrackunlock", "toggle"}},
 	[43] = {{"cauldronunlock", "toggle"}},
 
@@ -22,8 +20,6 @@ ITEM_MAPPING = {
 
 	--Mixing
 	[20] = {{"gasolineunlock", "toggle"}},
-	[22] = {{"acidunlock", "toggle"}},
-	[23] = {{"phosphorusunlock", "toggle"}},
 
 	--Properties
 	[61] = {{"carwash", "toggle"}},

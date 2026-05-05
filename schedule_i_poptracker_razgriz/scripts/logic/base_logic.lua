@@ -362,31 +362,6 @@ function hasNeedCook1()
 end
 
 
--- Need Cook 2: requires hasNeedCook1 AND level requirement
-function hasNeedCook2()
-    -- Base requirement: previous mission
-    if hasNeedCook1() == 0 then
-        return 0
-    end
-
-    -- Level requirement
-    if hasNormalLevels() == 1 then
-        return 1  -- normal levels means auto-pass
-    end
-
-    -- Randomized levels requires all four lab items
-    if hasRandomLevels() == 1 then
-        local chem_ok = Tracker:ProviderCountForCode("chemistrystationunlock") > 0
-        local oven_ok = Tracker:ProviderCountForCode("labovenunlock") > 0
-        local acid_ok = Tracker:ProviderCountForCode("acidunlock") > 0
-        local phos_ok = Tracker:ProviderCountForCode("phosphorusunlock") > 0
-        return (chem_ok and oven_ok and acid_ok and phos_ok) and 1 or 0
-    end
-
-    return 0
-end
-
-
 -- List of the 10 specific customers required for Unfavourable Agreement
 local unfavourable_customers = {
     "charlesrowlandunlocked",
@@ -401,10 +376,10 @@ local unfavourable_customers = {
     "keithwagnerunlocked"
 }
 
--- Unfavourable Agreement: requires hasNeedCook2 AND customer requirement
+-- Unfavourable Agreement: requires hasNeedCook1 AND customer requirement
 function hasUnfavourableAgreement()
     -- Base requirement: previous mission
-    if hasNeedCook2() == 0 then
+    if hasNeedCook1() == 0 then
         return 0
     end
 

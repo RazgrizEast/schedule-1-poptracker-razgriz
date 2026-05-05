@@ -50,7 +50,8 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "$hasNormalLevels",
-                    "$hasRandomLevels,mixingstationunlock"
+                    "$hasRandomLevels,mixingstationunlock",
+                    "$hasRandomLevels,mixingstationmk2unlock"
                 ],
                 "sections": [
                     {
@@ -205,16 +206,16 @@
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeSuppliers,shirleywattsunlocked",
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
                 ],
                 "sections": [
                     {
@@ -267,16 +268,16 @@
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeSuppliers,shirleywattsunlocked",
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
                 ],
                 "sections": [
                     {
@@ -329,16 +330,16 @@
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeSuppliers,shirleywattsunlocked",
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
                     "$canReachWestville,$hasNormalLevels,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
-                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,acidunlock,phosphorusunlock,chemistrystationunlock,labovenunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,shirleywattsunlocked",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationunlock,warehouseaccess,$hasRandomizeCustomers,megcooleyunlocked,$hasNormalSuppliers",
+                    "$canReachWestville,$hasRandomLevels,mixingstationmk2unlock,warehouseaccess,$hasRandomizeCustomers,jerrymonterounlocked,$hasNormalSuppliers"
                 ],
                 "sections": [
                     {
@@ -577,16 +578,16 @@
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeSuppliers,salvadormorenounlocked",
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
                 ],
                 "sections": [
                     {
@@ -639,16 +640,16 @@
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeSuppliers,salvadormorenounlocked",
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
                 ],
                 "sections": [
                     {
@@ -701,16 +702,16 @@
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeSuppliers,salvadormorenounlocked",
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
                     "$canReachDocks,$hasNormalLevels,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
-                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,labovenunlock,,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasNormalCustomers,$hasRandomizeSuppliers,salvadormorenounlocked",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationunlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,javierperezunlocked,$hasNormalSuppliers",
+                    "$canReachDocks,$hasRandomLevels,mixingstationmk2unlock,cauldronunlock,gasolineunlock,warehouseaccess,$hasRandomizeCustomers,maccooperunlocked,$hasNormalSuppliers"
                 ],
                 "sections": [
                     {

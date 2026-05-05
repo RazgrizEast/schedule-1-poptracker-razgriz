@@ -709,43 +709,43 @@
                     },
                     {
                         "name": "Purchase a chemistry station from Oscar",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Purchase a lab oven from Oscar",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Purchase acid from Oscar",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Purchase phosphorus from Oscar",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Message Shirley about buying some pseudo",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cook liquid meth at the chemistry station",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bake the liquid meth with the lab oven",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
