@@ -203,7 +203,7 @@
                     },
                     {
                         "name": "Rank Bagman V",
-                        "access_rules": ["$hasNeedCook2"],
+                        "access_rules": ["$hasNeedCook1"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

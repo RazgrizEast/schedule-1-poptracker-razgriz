@@ -14,8 +14,8 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$hasNeedCook2,$hasNormalBusiness",
-                    "$hasNeedCook2,$hasRandomBusiness,carwash"
+                    "$hasNeedCook1,$hasNormalBusiness",
+                    "$hasNeedCook1,$hasRandomBusiness,carwash"
                 ],
                 "sections": [
                     {
