@@ -250,7 +250,8 @@
                 "access_rules": [
                     "$hasNormalCustomers",
                     "$hasRandomizeCustomers,kellyreynoldsunlocked",
-                    "$hasRandomizeCustomers,lisagardenerunlocked"
+                    "$hasRandomizeCustomers,lisagardenerunlocked",
+                    "$hasRandomizeSuppliers,salvadormorenounlocked"
                 ],
                 "sections": [
                     {
