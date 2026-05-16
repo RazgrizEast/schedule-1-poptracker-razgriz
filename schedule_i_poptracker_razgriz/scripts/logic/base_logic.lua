@@ -82,16 +82,6 @@ end)
 -- Option Functions
 
 function hasRandomizeCustomers()
-    -- AP slot data has absolute priority when connected
-    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
-        local val = Archipelago.SlotData.randomize_customers
-        if val == nil and Archipelago.SlotData.options then
-            val = Archipelago.SlotData.options.randomize_customers
-        end
-        return (val == true or val == 1) and 1 or 0
-    end
-    
-    -- Only use manual setting when NOT connected
     return Tracker:ProviderCountForCode("randomcustomer_setting") > 0 and 1 or 0
 end
 
@@ -101,16 +91,6 @@ end
 
 
 function hasRandomizeDealers()
-    -- AP slot data has absolute priority when connected
-    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
-        local val = Archipelago.SlotData.randomize_dealers
-        if val == nil and Archipelago.SlotData.options then
-            val = Archipelago.SlotData.options.randomize_dealers
-        end
-        return (val == true or val == 1) and 1 or 0
-    end
-    
-    -- Only use manual setting when NOT connected
     return Tracker:ProviderCountForCode("randomdealer_setting") > 0 and 1 or 0
 end
 
@@ -120,16 +100,6 @@ end
 
 
 function hasRandomizeSuppliers()
-    -- AP slot data has absolute priority when connected
-    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
-        local val = Archipelago.SlotData.randomize_suppliers
-        if val == nil and Archipelago.SlotData.options then
-            val = Archipelago.SlotData.options.randomize_suppliers
-        end
-        return (val == true or val == 1) and 1 or 0
-    end
-    
-    -- Only use manual setting when NOT connected
     return Tracker:ProviderCountForCode("randomsupplier_setting") > 0 and 1 or 0
 end
 
@@ -139,16 +109,6 @@ end
 
 
 function hasRandomLevels()
-    -- AP slot data has absolute priority when connected
-    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
-        local val = Archipelago.SlotData.randomize_level_unlocks
-        if val == nil and Archipelago.SlotData.options then
-            val = Archipelago.SlotData.options.randomize_level_unlocks
-        end
-        return (val == true or val == 1) and 1 or 0
-    end
-    
-    -- Only use manual setting when NOT connected
     return Tracker:ProviderCountForCode("randomunlock_setting") > 0 and 1 or 0
 end
 
@@ -158,16 +118,6 @@ end
 
 
 function hasRandomBusiness()
-    -- AP slot data has absolute priority when connected
-    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
-        local val = Archipelago.SlotData.randomize_business_properties
-        if val == nil and Archipelago.SlotData.options then
-            val = Archipelago.SlotData.options.randomize_business_properties
-        end
-        return (val == true or val == 1) and 1 or 0
-    end
-    
-    -- Only use manual setting when NOT connected
     return Tracker:ProviderCountForCode("randombusiness_setting") > 0 and 1 or 0
 end
 
@@ -177,16 +127,6 @@ end
 
 
 function hasRandomCartel()
-    -- AP slot data has absolute priority when connected
-    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
-        local val = Archipelago.SlotData.randomize_cartel_influences
-        if val == nil and Archipelago.SlotData.options then
-            val = Archipelago.SlotData.options.randomize_cartel_influence
-        end
-        return (val == true or val == 1) and 1 or 0
-    end
-    
-    -- Only use manual setting when NOT connected
     return Tracker:ProviderCountForCode("randomcartel_setting") > 0 and 1 or 0
 end
 
@@ -196,16 +136,6 @@ end
 
 
 function hasRandomSewer()
-    -- AP slot data has absolute priority when connected
-    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
-        local val = Archipelago.SlotData.randomize_sewer_key
-        if val == nil and Archipelago.SlotData.options then
-            val = Archipelago.SlotData.options.randomize_sewer_key
-        end
-        return (val == true or val == 1) and 1 or 0
-    end
-    
-    -- Only use manual setting when NOT connected
     return Tracker:ProviderCountForCode("randomsewer_setting") > 0 and 1 or 0
 end
 
