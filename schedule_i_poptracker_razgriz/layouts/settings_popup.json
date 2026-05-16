@@ -1,20 +1,176 @@
 {
     "settings_popup": {
-        "type": "array",
-        "margin": 5,
+        "type": "dock",
         "content": [
-            {
-                "type": "group",
-                "header": "Autofill Settings",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "margin": "5,1,5,5",
-                        "item": "autofill_settings"
+        {
+            "type": "tabbed",
+            "tabs": [
+                {
+                    "title": "Settings",
+                    "content": {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "h_alignment": "left",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Randomize Customers",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "randomcustomer_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Randomize Dealers",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "randomdealer_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Randomize Suppliers",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "randomsupplier_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Randomize Level Unlocks",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "randomunlock_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Randomize Businesses",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "randombusiness_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Randomize Cartel Influence",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "randomcartel_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Randomize Sewer Key",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "randomsewer_grid"
+                                }
+                            }
+                        ]
                     }
-                ]
-            }
+                }
+            ]
+        }
+        ]
+    },
+    "randomcustomer_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "64,64",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "randomcustomer_setting"
+            ]
+        ]
+    },
+    "randomdealer_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "64,64",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "randomdealer_setting"
+            ]
+        ]
+    },
+    "randomsupplier_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "64,64",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "randomsupplier_setting"
+            ]
+        ]
+    },
+    "randomunlock_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "64,64",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "randomunlock_setting"
+            ]
+        ]
+    },
+    "randombusiness_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "64,64",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "randombusiness_setting"
+            ]
+        ]
+    },
+    "randomcartel_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "64,64",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "randomcartel_setting"
+            ]
+        ]
+    },
+    "randomsewer_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "64,64",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "randomsewer_setting"
+            ]
         ]
     }
 }

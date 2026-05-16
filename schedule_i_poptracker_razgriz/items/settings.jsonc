@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Randomize Customers",
+        "type": "toggle",
+        "img": "/images/settings/randomizecustomers.png",
+        "codes": "randomcustomer_setting"
+    },
+    {
+        "name": "Randomize Dealers",
+        "type": "toggle",
+        "img": "/images/settings/randomizedealers.png",
+        "codes": "randomdealer_setting"
+    },
+    {
+        "name": "Randomize Suppliers",
+        "type": "toggle",
+        "img": "/images/settings/randomizesuppliers.png",
+        "codes": "randomsupplier_setting"
+    },
+    {
+        "name": "Randomize Level Unlocks",
+        "type": "toggle",
+        "img": "/images/settings/randomizeunlocks.png",
+        "codes": "randomunlock_setting"
+    },
+    {
+        "name": "Randomize Businesses",
+        "type": "toggle",
+        "img": "/images/settings/randomizebusiness.png",
+        "codes": "randombusiness_setting"
+    },
+    {
+        "name": "Randomize Cartel Influence",
+        "type": "toggle",
+        "img": "/images/settings/randomizecartel.png",
+        "codes": "randomcartel_setting"
+    },
+    {
+        "name": "Randomize Sewer Key",
+        "type": "toggle",
+        "img": "/images/settings/randomizesewer.png",
+        "codes": "randomsewer_setting"
+    }
+]

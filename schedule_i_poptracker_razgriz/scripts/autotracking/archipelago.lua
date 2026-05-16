@@ -1,6 +1,7 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotracking/option_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil

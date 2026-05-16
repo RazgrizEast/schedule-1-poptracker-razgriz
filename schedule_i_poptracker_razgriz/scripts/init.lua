@@ -3,6 +3,7 @@ local variant = Tracker.ActiveVariantUID
 
 -- Items
 require("scripts/items_import")
+Tracker:AddItems("items/settings.jsonc")
 
 -- Logic
 require("scripts/logic/logic_helper")

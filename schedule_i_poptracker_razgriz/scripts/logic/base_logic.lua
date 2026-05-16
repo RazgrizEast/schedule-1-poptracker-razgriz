@@ -19,8 +19,8 @@ local randomize_suppliers = nil
 local randomize_level_unlocks = nil
 local randomize_business_properties = nil
 local randomize_cartel_influence = nil
-local recipe_checks_count = 0
-local cash_for_trash_count = 0
+local recipe_checks_count = 5
+local cash_for_trash_count = 5
 
 -- Clear handler: captures slot data when connected
 Archipelago:AddClearHandler("schedule_i_slot_data_init", function(slot_data)
@@ -43,8 +43,8 @@ Archipelago:AddClearHandler("schedule_i_slot_data_init", function(slot_data)
     randomize_sewer_key    = get_bool(slot_data.randomize_sewer_key,   "randomize_sewer_key")
 
     -- Numbers (default 0 if missing)
-    recipe_checks_count = tonumber(slot_data.recipe_checks) or 0
-    cash_for_trash_count = tonumber(slot_data.cash_for_trash) or 0
+    recipe_checks_count = tonumber(slot_data.recipe_checks) or 5
+    cash_for_trash_count = tonumber(slot_data.cash_for_trash) or 5
 
     -- Optional debug prints
     print("randomize_customers: " .. tostring(randomize_customers))
@@ -57,31 +57,162 @@ Archipelago:AddClearHandler("schedule_i_slot_data_init", function(slot_data)
     print("recipe_checks: " .. recipe_checks_count)
     print("cash_for_trash: " .. cash_for_trash_count)
 
+    if Tracker then
+        local function setToggle(code, enabled)
+            if Tracker.FindObjectForCode then
+                local item = Tracker:FindObjectForCode(code)
+                if item then
+                    item.Active = enabled
+                end
+            end
+        end
+
+        setToggle("randomcustomer_setting", randomize_customers)
+        setToggle("randomdealer_setting", randomize_dealers)
+        setToggle("randomsupplier_setting", randomize_suppliers)
+        setToggle("randomunlock_setting", randomize_level_unlocks)
+        setToggle("randombusiness_setting", randomize_business_properties)
+        setToggle("randomcartel_setting", randomize_cartel_influence)
+        setToggle("randomsewer_setting", randomize_sewer_key)
+    end
+
     Tracker:Update()
 end)
 
--- ==================== BOOLEAN OPTION FUNCTIONS ====================
+-- Option Functions
 
-function hasRandomizeCustomers()           return randomize_customers           and 1 or 0 end
-function hasNormalCustomers()              return (not randomize_customers)     and 1 or 0 end
+function hasRandomizeCustomers()
+    -- AP slot data has absolute priority when connected
+    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
+        local val = Archipelago.SlotData.randomize_customers
+        if val == nil and Archipelago.SlotData.options then
+            val = Archipelago.SlotData.options.randomize_customers
+        end
+        return (val == true or val == 1) and 1 or 0
+    end
+    
+    -- Only use manual setting when NOT connected
+    return Tracker:ProviderCountForCode("randomcustomer_setting") > 0 and 1 or 0
+end
 
-function hasRandomizeDealers()             return randomize_dealers             and 1 or 0 end
-function hasNormalDealers()                return (not randomize_dealers)       and 1 or 0 end
+function hasNormalCustomers()
+    return (hasRandomizeCustomers() == 0) and 1 or 0
+end
 
-function hasRandomizeSuppliers()           return randomize_suppliers           and 1 or 0 end
-function hasNormalSuppliers()              return (not randomize_suppliers)     and 1 or 0 end
 
-function hasRandomLevels()                 return randomize_level_unlocks       and 1 or 0 end
-function hasNormalLevels()                 return (not randomize_level_unlocks) and 1 or 0 end
+function hasRandomizeDealers()
+    -- AP slot data has absolute priority when connected
+    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
+        local val = Archipelago.SlotData.randomize_dealers
+        if val == nil and Archipelago.SlotData.options then
+            val = Archipelago.SlotData.options.randomize_dealers
+        end
+        return (val == true or val == 1) and 1 or 0
+    end
+    
+    -- Only use manual setting when NOT connected
+    return Tracker:ProviderCountForCode("randomdealer_setting") > 0 and 1 or 0
+end
 
-function hasRandomBusiness()               return randomize_business_properties and 1 or 0 end
-function hasNormalBusiness()               return (not randomize_business_properties) and 1 or 0 end
+function hasNormalDealers()
+    return (hasRandomizeDealers() == 0) and 1 or 0
+end
 
-function hasRandomCartel()                 return randomize_cartel_influence    and 1 or 0 end
-function hasNormalCartel()                 return (not randomize_cartel_influence) and 1 or 0 end
 
-function hasRandomSewer()                 return randomize_sewer_key    and 1 or 0 end
-function hasNormalSewer()                 return (not randomize_sewer_key) and 1 or 0 end
+function hasRandomizeSuppliers()
+    -- AP slot data has absolute priority when connected
+    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
+        local val = Archipelago.SlotData.randomize_suppliers
+        if val == nil and Archipelago.SlotData.options then
+            val = Archipelago.SlotData.options.randomize_suppliers
+        end
+        return (val == true or val == 1) and 1 or 0
+    end
+    
+    -- Only use manual setting when NOT connected
+    return Tracker:ProviderCountForCode("randomsupplier_setting") > 0 and 1 or 0
+end
+
+function hasNormalSuppliers()
+    return (hasRandomizeSuppliers() == 0) and 1 or 0
+end
+
+
+function hasRandomLevels()
+    -- AP slot data has absolute priority when connected
+    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
+        local val = Archipelago.SlotData.randomize_level_unlocks
+        if val == nil and Archipelago.SlotData.options then
+            val = Archipelago.SlotData.options.randomize_level_unlocks
+        end
+        return (val == true or val == 1) and 1 or 0
+    end
+    
+    -- Only use manual setting when NOT connected
+    return Tracker:ProviderCountForCode("randomunlock_setting") > 0 and 1 or 0
+end
+
+function hasNormalLevels()
+    return (hasRandomLevels() == 0) and 1 or 0
+end
+
+
+function hasRandomBusiness()
+    -- AP slot data has absolute priority when connected
+    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
+        local val = Archipelago.SlotData.randomize_business_properties
+        if val == nil and Archipelago.SlotData.options then
+            val = Archipelago.SlotData.options.randomize_business_properties
+        end
+        return (val == true or val == 1) and 1 or 0
+    end
+    
+    -- Only use manual setting when NOT connected
+    return Tracker:ProviderCountForCode("randombusiness_setting") > 0 and 1 or 0
+end
+
+function hasNormalBusiness()
+    return (hasRandomBusiness() == 0) and 1 or 0
+end
+
+
+function hasRandomCartel()
+    -- AP slot data has absolute priority when connected
+    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
+        local val = Archipelago.SlotData.randomize_cartel_influences
+        if val == nil and Archipelago.SlotData.options then
+            val = Archipelago.SlotData.options.randomize_cartel_influence
+        end
+        return (val == true or val == 1) and 1 or 0
+    end
+    
+    -- Only use manual setting when NOT connected
+    return Tracker:ProviderCountForCode("randomcartel_setting") > 0 and 1 or 0
+end
+
+function hasNormalCartel()
+    return (hasRandomCartel() == 0) and 1 or 0
+end
+
+
+function hasRandomSewer()
+    -- AP slot data has absolute priority when connected
+    if Archipelago and Archipelago.Connected and Archipelago.SlotData then
+        local val = Archipelago.SlotData.randomize_sewer_key
+        if val == nil and Archipelago.SlotData.options then
+            val = Archipelago.SlotData.options.randomize_sewer_key
+        end
+        return (val == true or val == 1) and 1 or 0
+    end
+    
+    -- Only use manual setting when NOT connected
+    return Tracker:ProviderCountForCode("randomsewer_setting") > 0 and 1 or 0
+end
+
+function hasNormalSewer()
+    return (hasRandomSewer() == 0) and 1 or 0
+end
+
 
 -- ==================== NUMERIC THRESHOLD FUNCTIONS ====================
 
