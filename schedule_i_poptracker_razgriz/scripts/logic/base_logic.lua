@@ -245,7 +245,6 @@ function canReachUptown()
 end
 
 
-
 -- ==================== CUSTOMER COUNT FOR "MOVING UP" ====================
 
 -- List of all customer unlock codes

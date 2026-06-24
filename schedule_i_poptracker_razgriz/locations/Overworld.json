@@ -90,31 +90,31 @@
                 "sections": [
                     {
                         "name": "Cartel Influence - Docks cartel influence 1",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 1"
+                        "ref": "Cartel/Cartel Influence/Docks cartel influence 1"
                     },
                     {
                         "name": "Cartel Influence - Docks cartel influence 2",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 2"
+                        "ref": "Cartel/Cartel Influence/Docks cartel influence 2"
                     },
                     {
                         "name": "Cartel Influence - Docks cartel influence 3",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 3"
+                        "ref": "Cartel/Cartel Influence/Docks cartel influence 3"
                     },
                     {
                         "name": "Cartel Influence - Docks cartel influence 4",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 4"
+                        "ref": "Cartel/Cartel Influence/Docks cartel influence 4"
                     },
                     {
                         "name": "Cartel Influence - Docks cartel influence 5",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 5"
+                        "ref": "Cartel/Cartel Influence/Docks cartel influence 5"
                     },
                     {
                         "name": "Cartel Influence - Docks cartel influence 6",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 6"
+                        "ref": "Cartel/Cartel Influence/Docks cartel influence 6"
                     },
                     {
                         "name": "Cartel Influence - Docks cartel influence 7",
-                        "ref": "Docks/Cartel Influence/Docks cartel influence 7"
+                        "ref": "Cartel/Cartel Influence/Docks cartel influence 7"
                     }
                 ],
                 "map_locations": [
@@ -208,31 +208,31 @@
                 "sections": [
                     {
                         "name": "Cartel Influence - Downtown cartel influence 1",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 1"
+                        "ref": "Cartel/Cartel Influence/Downtown cartel influence 1"
                     },
                     {
                         "name": "Cartel Influence - Downtown cartel influence 2",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 2"
+                        "ref": "Cartel/Cartel Influence/Downtown cartel influence 2"
                     },
                     {
                         "name": "Cartel Influence - Downtown cartel influence 3",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 3"
+                        "ref": "Cartel/Cartel Influence/Downtown cartel influence 3"
                     },
                     {
                         "name": "Cartel Influence - Downtown cartel influence 4",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 4"
+                        "ref": "Cartel/Cartel Influence/Downtown cartel influence 4"
                     },
                     {
                         "name": "Cartel Influence - Downtown cartel influence 5",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 5"
+                        "ref": "Cartel/Cartel Influence/Downtown cartel influence 5"
                     },
                     {
                         "name": "Cartel Influence - Downtown cartel influence 6",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 6"
+                        "ref": "Cartel/Cartel Influence/Downtown cartel influence 6"
                     },
                     {
                         "name": "Cartel Influence - Downtown cartel influence 7",
-                        "ref": "Downtown/Cartel Influence/Downtown cartel influence 7"
+                        "ref": "Cartel/Cartel Influence/Downtown cartel influence 7"
                     }
                 ],
                 "map_locations": [
@@ -1541,31 +1541,31 @@
                 "sections": [
                     {
                         "name": "Cartel Influence - Suburbia cartel influence 1",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 1"
+                        "ref": "Cartel/Cartel Influence/Suburbia cartel influence 1"
                     },
                     {
                         "name": "Cartel Influence - Suburbia cartel influence 2",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 2"
+                        "ref": "Cartel/Cartel Influence/Suburbia cartel influence 2"
                     },
                     {
                         "name": "Cartel Influence - Suburbia cartel influence 3",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 3"
+                        "ref": "Cartel/Cartel Influence/Suburbia cartel influence 3"
                     },
                     {
                         "name": "Cartel Influence - Suburbia cartel influence 4",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 4"
+                        "ref": "Cartel/Cartel Influence/Suburbia cartel influence 4"
                     },
                     {
                         "name": "Cartel Influence - Suburbia cartel influence 5",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 5"
+                        "ref": "Cartel/Cartel Influence/Suburbia cartel influence 5"
                     },
                     {
                         "name": "Cartel Influence - Suburbia cartel influence 6",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 6"
+                        "ref": "Cartel/Cartel Influence/Suburbia cartel influence 6"
                     },
                     {
                         "name": "Cartel Influence - Suburbia cartel influence 7",
-                        "ref": "Suburbia/Cartel Influence/Suburbia cartel influence 7"
+                        "ref": "Cartel/Cartel Influence/Suburbia cartel influence 7"
                     }
                 ],
                 "map_locations": [
@@ -1651,31 +1651,31 @@
                 "sections": [
                     {
                         "name": "Cartel Influence - Uptown cartel influence 1",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 1"
+                        "ref": "Cartel/Cartel Influence/Uptown cartel influence 1"
                     },
                     {
                         "name": "Cartel Influence - Uptown cartel influence 2",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 2"
+                        "ref": "Cartel/Cartel Influence/Uptown cartel influence 2"
                     },
                     {
                         "name": "Cartel Influence - Uptown cartel influence 3",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 3"
+                        "ref": "Cartel/Cartel Influence/Uptown cartel influence 3"
                     },
                     {
                         "name": "Cartel Influence - Uptown cartel influence 4",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 4"
+                        "ref": "Cartel/Cartel Influence/Uptown cartel influence 4"
                     },
                     {
                         "name": "Cartel Influence - Uptown cartel influence 5",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 5"
+                        "ref": "Cartel/Cartel Influence/Uptown cartel influence 5"
                     },
                     {
                         "name": "Cartel Influence - Uptown cartel influence 6",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 6"
+                        "ref": "Cartel/Cartel Influence/Uptown cartel influence 6"
                     },
                     {
                         "name": "Cartel Influence - Uptown cartel influence 7",
-                        "ref": "Uptown/Cartel Influence/Uptown cartel influence 7"
+                        "ref": "Cartel/Cartel Influence/Uptown cartel influence 7"
                     }
                 ],
                 "map_locations": [
@@ -1765,11 +1765,11 @@
                 "sections": [
                     {
                         "name": "Cartel Influence - Westville cartel influence 1",
-                        "ref": "Westville/Cartel Influence/Westville cartel influence 1"
+                        "ref": "Cartel/Cartel Influence/Westville cartel influence 1"
                     },
                     {
                         "name": "Cartel Influence - Westville cartel influence 2",
-                        "ref": "Westville/Cartel Influence/Westville cartel influence 2"
+                        "ref": "Cartel/Cartel Influence/Westville cartel influence 2"
                     }
                 ],
                 "map_locations": [
